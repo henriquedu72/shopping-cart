@@ -10,17 +10,22 @@ describe('1 - Teste a função fetchProducts', () => {
     const actual = await fetchProducts();
     expect (typeof fetchProducts).toBe('function');
   });
-  // test(' Se ao usar `computador` como arguemento a função chama fetch', () => {
-  //   expect(fetchProducts('computador')).toBeCalled(fetch);
-  // });
-  // test(' Se ao usar `computador` como argumento irá utilizar o endpoint', () => {
-  //   const endpoint = 'https://api.mercadolibre.com/sites/MLB/search?q=computador';
-  //   const actual = fetchProducts('computador');
-  //   expect(actual).toEqual(endpoint);
-  // });
-  // test(' Se ao usar `computador` o retorno da função  igual ao objeto `computadorSearch`', () => {
-  //   const actual = fetchProducts('computador');
-  //   expect(fetchProducts()).toThrow('You must provide an url');
-  // });
+  test(' Se ao usar `computador` como arguemento fetch foi chamado', async () => {
+    await fetchProducts('computador');
+    expect(fetch).toHaveBeenCalled();
+  });
+  test(' Se ao usar `computador` como argumento irá utilizar o endpoint', async () => {
+    await fetchProducts('computador');
+    const endpoint = 'https://api.mercadolibre.com/sites/MLB/search?q=computador';
+    expect(fetch).toHaveBeenCalledWith(endpoint);
+  });
+  test(' Se ao usar `computador` o retorno da função sera igual ao objeto `computadorSearch`', async () => {
+    const actual = await fetchProducts('computador');
+    expect(actual).toEqual(computadorSearch);
+  });
+    test(' Se ao usar a função sem argumento, retorna um erro igual a `You must provide an url`', () => {
+    const actual = fetchProducts();
+    expect(actual).resolves.toEqual(new Error ('You must provide an url'))
+  });
 
 });
