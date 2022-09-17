@@ -1,0 +1,1991 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/eduardo/.nvm/versions/node/v6.17.1/bin/node',
+1 verbose cli   '/home/eduardo/.nvm/versions/node/v6.17.1/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.17.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData fsevents
+20 silly mapToRegistry name fsevents
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'fsevents',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'fsevents',
+23 silly mapToRegistry   name: 'fsevents',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/fsevents
+25 verbose request uri https://registry.npmjs.org/fsevents
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 22:48:18
+28 verbose request id 589cea95156c65bb
+29 verbose etag W/"f70d5ce84deac79ac7961b61b00c57e7"
+30 verbose lastModified Sat, 18 Jun 2022 03:58:00 GMT
+31 http request GET https://registry.npmjs.org/fsevents
+32 http 304 https://registry.npmjs.org/fsevents
+33 verbose headers { date: 'Sat, 17 Sep 2022 01:48:18 GMT',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'cf-ray': '74be2dc99bcba4c2-GRU',
+33 verbose headers   age: '120',
+33 verbose headers   'cache-control': 'public, max-age=300',
+33 verbose headers   etag: '"f70d5ce84deac79ac7961b61b00c57e7"',
+33 verbose headers   'last-modified': 'Sat, 18 Jun 2022 03:58:00 GMT',
+33 verbose headers   vary: 'Accept-Encoding',
+33 verbose headers   'cf-cache-status': 'HIT',
+33 verbose headers   'x-amz-replication-status': 'COMPLETED',
+33 verbose headers   server: 'cloudflare' }
+34 silly get cb [ 304,
+34 silly get   { date: 'Sat, 17 Sep 2022 01:48:18 GMT',
+34 silly get     connection: 'keep-alive',
+34 silly get     'cf-ray': '74be2dc99bcba4c2-GRU',
+34 silly get     age: '120',
+34 silly get     'cache-control': 'public, max-age=300',
+34 silly get     etag: '"f70d5ce84deac79ac7961b61b00c57e7"',
+34 silly get     'last-modified': 'Sat, 18 Jun 2022 03:58:00 GMT',
+34 silly get     vary: 'Accept-Encoding',
+34 silly get     'cf-cache-status': 'HIT',
+34 silly get     'x-amz-replication-status': 'COMPLETED',
+34 silly get     server: 'cloudflare' } ]
+35 verbose etag https://registry.npmjs.org/fsevents from cache
+36 verbose get saving fsevents to /home/eduardo/.npm/registry.npmjs.org/fsevents/.cache.json
+37 verbose correctMkdir /home/eduardo/.npm correctMkdir not in flight; initializing
+38 silly resolveWithNewModule fsevents@2.3.2 checking installable status
+39 silly fetchNamedPackageData fsevents
+40 silly mapToRegistry name fsevents
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry data Result {
+43 silly mapToRegistry   raw: 'fsevents',
+43 silly mapToRegistry   scope: null,
+43 silly mapToRegistry   escapedName: 'fsevents',
+43 silly mapToRegistry   name: 'fsevents',
+43 silly mapToRegistry   rawSpec: '',
+43 silly mapToRegistry   spec: 'latest',
+43 silly mapToRegistry   type: 'tag' }
+44 silly mapToRegistry uri https://registry.npmjs.org/fsevents
+45 silly resolveWithNewModule fsevents@2.3.2 checking installable status
+46 silly loadAllDepsIntoIdealTree Finishing
+47 silly loadIdealTree Finishing
+48 silly currentTree sd-0x-project-shopping-cart@1.0.0
+48 silly currentTree ├── @ampproject/remapping@2.2.0
+48 silly currentTree ├── @babel/code-frame@7.18.6
+48 silly currentTree ├── @babel/compat-data@7.18.13
+48 silly currentTree ├── @babel/core@7.18.13
+48 silly currentTree ├─┬ @babel/generator@7.18.13
+48 silly currentTree │ └── @jridgewell/gen-mapping@0.3.2
+48 silly currentTree ├── @babel/helper-compilation-targets@7.18.9
+48 silly currentTree ├── @babel/helper-environment-visitor@7.18.9
+48 silly currentTree ├── @babel/helper-function-name@7.18.9
+48 silly currentTree ├── @babel/helper-hoist-variables@7.18.6
+48 silly currentTree ├── @babel/helper-module-imports@7.18.6
+48 silly currentTree ├── @babel/helper-module-transforms@7.18.9
+48 silly currentTree ├── @babel/helper-plugin-utils@7.18.9
+48 silly currentTree ├── @babel/helper-simple-access@7.18.6
+48 silly currentTree ├── @babel/helper-split-export-declaration@7.18.6
+48 silly currentTree ├── @babel/helper-string-parser@7.18.10
+48 silly currentTree ├── @babel/helper-validator-identifier@7.18.6
+48 silly currentTree ├── @babel/helper-validator-option@7.18.6
+48 silly currentTree ├── @babel/helpers@7.18.9
+48 silly currentTree ├── @babel/highlight@7.18.6
+48 silly currentTree ├── @babel/parser@7.18.13
+48 silly currentTree ├── @babel/plugin-syntax-async-generators@7.8.4
+48 silly currentTree ├── @babel/plugin-syntax-bigint@7.8.3
+48 silly currentTree ├── @babel/plugin-syntax-class-properties@7.12.13
+48 silly currentTree ├── @babel/plugin-syntax-import-meta@7.10.4
+48 silly currentTree ├── @babel/plugin-syntax-json-strings@7.8.3
+48 silly currentTree ├── @babel/plugin-syntax-logical-assignment-operators@7.10.4
+48 silly currentTree ├── @babel/plugin-syntax-nullish-coalescing-operator@7.8.3
+48 silly currentTree ├── @babel/plugin-syntax-numeric-separator@7.10.4
+48 silly currentTree ├── @babel/plugin-syntax-object-rest-spread@7.8.3
+48 silly currentTree ├── @babel/plugin-syntax-optional-catch-binding@7.8.3
+48 silly currentTree ├── @babel/plugin-syntax-optional-chaining@7.8.3
+48 silly currentTree ├── @babel/plugin-syntax-top-level-await@7.14.5
+48 silly currentTree ├── @babel/plugin-syntax-typescript@7.18.6
+48 silly currentTree ├── @babel/runtime-corejs3@7.15.4
+48 silly currentTree ├── @babel/runtime@7.15.4
+48 silly currentTree ├── @babel/template@7.18.10
+48 silly currentTree ├─┬ @babel/traverse@7.18.13
+48 silly currentTree │ └── globals@11.12.0
+48 silly currentTree ├── @babel/types@7.18.13
+48 silly currentTree ├── @bcoe/v8-coverage@0.2.3
+48 silly currentTree ├── @colors/colors@1.5.0
+48 silly currentTree ├── @csstools/selector-specificity@2.0.2
+48 silly currentTree ├── @cypress/request@2.88.10
+48 silly currentTree ├─┬ @cypress/xvfb@1.2.4
+48 silly currentTree │ └── debug@3.2.7
+48 silly currentTree ├─┬ @eslint/eslintrc@0.4.3
+48 silly currentTree │ ├── espree@7.3.1
+48 silly currentTree │ ├── globals@13.11.0
+48 silly currentTree │ └── type-fest@0.20.2
+48 silly currentTree ├── @humanwhocodes/config-array@0.5.0
+48 silly currentTree ├── @humanwhocodes/object-schema@1.2.0
+48 silly currentTree ├─┬ @istanbuljs/load-nyc-config@1.1.0
+48 silly currentTree │ ├── find-up@4.1.0
+48 silly currentTree │ ├── locate-path@5.0.0
+48 silly currentTree │ ├── p-limit@2.3.0
+48 silly currentTree │ ├── p-locate@4.1.0
+48 silly currentTree │ ├── p-try@2.2.0
+48 silly currentTree │ ├── path-exists@4.0.0
+48 silly currentTree │ └── resolve-from@5.0.0
+48 silly currentTree ├── @istanbuljs/schema@0.1.3
+48 silly currentTree ├─┬ @jest/console@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ └── color-name@1.1.4
+48 silly currentTree ├─┬ @jest/core@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ ├── rimraf@3.0.2
+48 silly currentTree │ └── strip-ansi@6.0.1
+48 silly currentTree ├── @jest/environment@28.1.3
+48 silly currentTree ├── @jest/expect-utils@28.1.3
+48 silly currentTree ├── @jest/expect@28.1.3
+48 silly currentTree ├── @jest/fake-timers@28.1.3
+48 silly currentTree ├── @jest/globals@28.1.3
+48 silly currentTree ├─┬ @jest/reporters@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ └── strip-ansi@6.0.1
+48 silly currentTree ├── @jest/schemas@28.1.3
+48 silly currentTree ├── @jest/source-map@28.1.2
+48 silly currentTree ├── @jest/test-result@28.1.3
+48 silly currentTree ├── @jest/test-sequencer@28.1.3
+48 silly currentTree ├─┬ @jest/transform@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ └── color-name@1.1.4
+48 silly currentTree ├─┬ @jest/types@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ └── color-name@1.1.4
+48 silly currentTree ├── @jridgewell/gen-mapping@0.1.1
+48 silly currentTree ├── @jridgewell/resolve-uri@3.1.0
+48 silly currentTree ├── @jridgewell/set-array@1.1.2
+48 silly currentTree ├── @jridgewell/sourcemap-codec@1.4.14
+48 silly currentTree ├── @jridgewell/trace-mapping@0.3.15
+48 silly currentTree ├── @nodelib/fs.scandir@2.1.5
+48 silly currentTree ├── @nodelib/fs.stat@2.0.5
+48 silly currentTree ├── @nodelib/fs.walk@1.2.8
+48 silly currentTree ├── @sinclair/typebox@0.24.28
+48 silly currentTree ├── @sinonjs/commons@1.8.3
+48 silly currentTree ├── @sinonjs/fake-timers@9.1.2
+48 silly currentTree ├── @types/babel__core@7.1.19
+48 silly currentTree ├── @types/babel__generator@7.6.4
+48 silly currentTree ├── @types/babel__template@7.4.1
+48 silly currentTree ├── @types/babel__traverse@7.18.0
+48 silly currentTree ├── @types/graceful-fs@4.1.5
+48 silly currentTree ├── @types/istanbul-lib-coverage@2.0.4
+48 silly currentTree ├── @types/istanbul-lib-report@3.0.0
+48 silly currentTree ├── @types/istanbul-reports@3.0.1
+48 silly currentTree ├── @types/json5@0.0.29
+48 silly currentTree ├── @types/minimist@1.2.2
+48 silly currentTree ├── @types/node@14.18.26
+48 silly currentTree ├── @types/normalize-package-data@2.4.1
+48 silly currentTree ├── @types/parse-json@4.0.0
+48 silly currentTree ├── @types/prettier@2.7.0
+48 silly currentTree ├── @types/sinonjs__fake-timers@8.1.1
+48 silly currentTree ├── @types/sizzle@2.3.3
+48 silly currentTree ├── @types/stack-utils@2.0.1
+48 silly currentTree ├── @types/yargs-parser@21.0.0
+48 silly currentTree ├── @types/yargs@17.0.11
+48 silly currentTree ├── @types/yauzl@2.10.0
+48 silly currentTree ├── @ungap/promise-all-settled@1.1.2
+48 silly currentTree ├── acorn-jsx@5.3.2
+48 silly currentTree ├── acorn@7.4.1
+48 silly currentTree ├── aggregate-error@3.1.0
+48 silly currentTree ├── ajv@6.12.6
+48 silly currentTree ├── ansi-colors@4.1.1
+48 silly currentTree ├─┬ ansi-escapes@4.3.2
+48 silly currentTree │ └── type-fest@0.21.3
+48 silly currentTree ├── ansi-regex@5.0.1
+48 silly currentTree ├── ansi-styles@3.2.1
+48 silly currentTree ├── anymatch@3.1.2
+48 silly currentTree ├── arch@2.2.0
+48 silly currentTree ├── argparse@1.0.10
+48 silly currentTree ├── aria-query@4.2.2
+48 silly currentTree ├── array-includes@3.1.4
+48 silly currentTree ├── array-union@2.1.0
+48 silly currentTree ├── array.prototype.flat@1.2.5
+48 silly currentTree ├── array.prototype.flatmap@1.2.5
+48 silly currentTree ├── arrify@1.0.1
+48 silly currentTree ├── asn1@0.2.6
+48 silly currentTree ├── assert-plus@1.0.0
+48 silly currentTree ├── ast-types-flow@0.0.7
+48 silly currentTree ├── astral-regex@1.0.0
+48 silly currentTree ├── async@3.2.4
+48 silly currentTree ├── asynckit@0.4.0
+48 silly currentTree ├── at-least-node@1.0.0
+48 silly currentTree ├── aws-sign2@0.7.0
+48 silly currentTree ├── aws4@1.11.0
+48 silly currentTree ├── axe-core@4.3.3
+48 silly currentTree ├── axobject-query@2.2.0
+48 silly currentTree ├─┬ babel-jest@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ └── color-name@1.1.4
+48 silly currentTree ├── babel-plugin-istanbul@6.1.1
+48 silly currentTree ├── babel-plugin-jest-hoist@28.1.3
+48 silly currentTree ├── babel-preset-current-node-syntax@1.0.1
+48 silly currentTree ├── babel-preset-jest@28.1.3
+48 silly currentTree ├── balanced-match@1.0.2
+48 silly currentTree ├── base64-js@1.5.1
+48 silly currentTree ├── bcrypt-pbkdf@1.0.2
+48 silly currentTree ├── binary-extensions@2.2.0
+48 silly currentTree ├── blob-util@2.0.2
+48 silly currentTree ├── bluebird@3.7.2
+48 silly currentTree ├── brace-expansion@1.1.11
+48 silly currentTree ├── braces@3.0.2
+48 silly currentTree ├── browser-stdout@1.3.1
+48 silly currentTree ├── browserslist@4.21.3
+48 silly currentTree ├── bser@2.1.1
+48 silly currentTree ├── buffer-crc32@0.2.13
+48 silly currentTree ├── buffer-from@1.1.2
+48 silly currentTree ├── buffer@5.7.1
+48 silly currentTree ├── cachedir@2.3.0
+48 silly currentTree ├── call-bind@1.0.2
+48 silly currentTree ├── callsites@3.1.0
+48 silly currentTree ├── camelcase-keys@6.2.2
+48 silly currentTree ├── camelcase@5.3.1
+48 silly currentTree ├── caniuse-lite@1.0.30001382
+48 silly currentTree ├── caseless@0.12.0
+48 silly currentTree ├─┬ chalk@2.4.2
+48 silly currentTree │ ├── has-flag@3.0.0
+48 silly currentTree │ └── supports-color@5.5.0
+48 silly currentTree ├── char-regex@1.0.2
+48 silly currentTree ├── chardet@0.7.0
+48 silly currentTree ├── check-more-types@2.24.0
+48 silly currentTree ├── chokidar@3.5.3
+48 silly currentTree ├── ci-info@3.3.2
+48 silly currentTree ├── cjs-module-lexer@1.2.2
+48 silly currentTree ├── clean-stack@2.2.0
+48 silly currentTree ├── cli-cursor@3.1.0
+48 silly currentTree ├── cli-table3@0.6.2
+48 silly currentTree ├── cli-truncate@2.1.0
+48 silly currentTree ├── cli-width@3.0.0
+48 silly currentTree ├─┬ cliui@7.0.4
+48 silly currentTree │ └── strip-ansi@6.0.1
+48 silly currentTree ├── co@4.6.0
+48 silly currentTree ├── collect-v8-coverage@1.0.1
+48 silly currentTree ├── color-convert@1.9.3
+48 silly currentTree ├── color-name@1.1.3
+48 silly currentTree ├── colord@2.9.3
+48 silly currentTree ├── colorette@2.0.19
+48 silly currentTree ├── combined-stream@1.0.8
+48 silly currentTree ├── commander@5.1.0
+48 silly currentTree ├── common-tags@1.8.0
+48 silly currentTree ├── concat-map@0.0.1
+48 silly currentTree ├── confusing-browser-globals@1.0.10
+48 silly currentTree ├─┬ convert-source-map@1.8.0
+48 silly currentTree │ └── safe-buffer@5.1.2
+48 silly currentTree ├── core-js-pure@3.18.3
+48 silly currentTree ├── core-util-is@1.0.2
+48 silly currentTree ├── cosmiconfig@7.0.1
+48 silly currentTree ├─┬ cross-spawn@6.0.5
+48 silly currentTree │ └── semver@5.7.1
+48 silly currentTree ├── css-functions-list@3.1.0
+48 silly currentTree ├── cssesc@3.0.0
+48 silly currentTree ├── cypress-multi-reporters@1.6.1
+48 silly currentTree ├─┬ cypress@10.6.0
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├─┬ chalk@4.1.2
+48 silly currentTree │ │ └── supports-color@7.2.0
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ ├── lru-cache@6.0.0
+48 silly currentTree │ ├── semver@7.3.7
+48 silly currentTree │ ├── supports-color@8.1.1
+48 silly currentTree │ └── yallist@4.0.0
+48 silly currentTree ├── damerau-levenshtein@1.0.7
+48 silly currentTree ├── dashdash@1.14.1
+48 silly currentTree ├── dateformat@4.6.3
+48 silly currentTree ├── dayjs@1.11.5
+48 silly currentTree ├─┬ debug@4.3.4
+48 silly currentTree │ └── ms@2.1.2
+48 silly currentTree ├─┬ decamelize-keys@1.1.0
+48 silly currentTree │ └── map-obj@1.0.1
+48 silly currentTree ├── decamelize@1.2.0
+48 silly currentTree ├── dedent@0.7.0
+48 silly currentTree ├── deep-is@0.1.4
+48 silly currentTree ├── deepmerge@4.2.2
+48 silly currentTree ├── define-properties@1.1.3
+48 silly currentTree ├── delayed-stream@1.0.0
+48 silly currentTree ├── detect-newline@3.1.0
+48 silly currentTree ├── diff-sequences@28.1.1
+48 silly currentTree ├── diff@5.0.0
+48 silly currentTree ├── dir-glob@3.0.1
+48 silly currentTree ├── doctrine@3.0.0
+48 silly currentTree ├── ecc-jsbn@0.1.2
+48 silly currentTree ├─┬ editorconfig@0.15.3
+48 silly currentTree │ ├── commander@2.20.3
+48 silly currentTree │ └── semver@5.7.1
+48 silly currentTree ├── electron-to-chromium@1.4.228
+48 silly currentTree ├── emittery@0.10.2
+48 silly currentTree ├── emoji-regex@9.2.2
+48 silly currentTree ├── end-of-stream@1.4.4
+48 silly currentTree ├── enquirer@2.3.6
+48 silly currentTree ├── error-ex@1.3.2
+48 silly currentTree ├── es-abstract@1.19.1
+48 silly currentTree ├── es-to-primitive@1.2.1
+48 silly currentTree ├── escalade@3.1.1
+48 silly currentTree ├── escape-html@1.0.3
+48 silly currentTree ├── escape-string-regexp@1.0.5
+48 silly currentTree ├── eslint-config-airbnb-base@14.2.1
+48 silly currentTree ├── eslint-config-airbnb@18.2.1
+48 silly currentTree ├── eslint-config-trybe-fundamentals@1.1.1
+48 silly currentTree ├─┬ eslint-import-resolver-node@0.3.6
+48 silly currentTree │ └── debug@3.2.7
+48 silly currentTree ├─┬ eslint-module-utils@2.7.1
+48 silly currentTree │ └── debug@3.2.7
+48 silly currentTree ├─┬ eslint-plugin-editorconfig@2.1.3
+48 silly currentTree │ ├── @babel/code-frame@7.12.11
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── astral-regex@2.0.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ ├── cross-spawn@7.0.3
+48 silly currentTree │ ├── escape-string-regexp@4.0.0
+48 silly currentTree │ ├── eslint-utils@2.1.0
+48 silly currentTree │ ├─┬ eslint@7.32.0
+48 silly currentTree │ │ └── eslint-visitor-keys@2.1.0
+48 silly currentTree │ ├── espree@7.3.1
+48 silly currentTree │ ├── file-entry-cache@6.0.1
+48 silly currentTree │ ├── flat-cache@3.0.4
+48 silly currentTree │ ├── flatted@3.2.2
+48 silly currentTree │ ├── globals@13.11.0
+48 silly currentTree │ ├── is-fullwidth-code-point@3.0.0
+48 silly currentTree │ ├── json-schema-traverse@1.0.0
+48 silly currentTree │ ├── levn@0.4.1
+48 silly currentTree │ ├── lru-cache@6.0.0
+48 silly currentTree │ ├── optionator@0.9.1
+48 silly currentTree │ ├── path-key@3.1.1
+48 silly currentTree │ ├── prelude-ls@1.2.1
+48 silly currentTree │ ├── regexpp@3.2.0
+48 silly currentTree │ ├── rimraf@3.0.2
+48 silly currentTree │ ├── semver@7.3.5
+48 silly currentTree │ ├── shebang-command@2.0.0
+48 silly currentTree │ ├── shebang-regex@3.0.0
+48 silly currentTree │ ├── slice-ansi@4.0.0
+48 silly currentTree │ ├── strip-ansi@6.0.1
+48 silly currentTree │ ├─┬ table@6.7.2
+48 silly currentTree │ │ └── ajv@8.6.3
+48 silly currentTree │ ├── type-check@0.4.0
+48 silly currentTree │ ├── type-fest@0.20.2
+48 silly currentTree │ ├── which@2.0.2
+48 silly currentTree │ └── yallist@4.0.0
+48 silly currentTree ├─┬ eslint-plugin-import@2.25.2
+48 silly currentTree │ ├── debug@2.6.9
+48 silly currentTree │ ├── doctrine@2.1.0
+48 silly currentTree │ └── ms@2.0.0
+48 silly currentTree ├── eslint-plugin-jsx-a11y@6.4.1
+48 silly currentTree ├── eslint-plugin-react-hooks@4.2.0
+48 silly currentTree ├─┬ eslint-plugin-react@7.26.1
+48 silly currentTree │ ├── doctrine@2.1.0
+48 silly currentTree │ └── resolve@2.0.0-next.3
+48 silly currentTree ├── eslint-plugin-sonarjs@0.5.0
+48 silly currentTree ├─┬ eslint-scope@5.1.1
+48 silly currentTree │ └── estraverse@4.3.0
+48 silly currentTree ├── eslint-utils@1.4.3
+48 silly currentTree ├── eslint-visitor-keys@1.3.0
+48 silly currentTree ├── eslint@6.8.0
+48 silly currentTree ├── espree@6.2.1
+48 silly currentTree ├── esprima@4.0.1
+48 silly currentTree ├── esquery@1.4.0
+48 silly currentTree ├── esrecurse@4.3.0
+48 silly currentTree ├── estraverse@5.2.0
+48 silly currentTree ├── esutils@2.0.3
+48 silly currentTree ├── eventemitter2@6.4.7
+48 silly currentTree ├─┬ execa@4.1.0
+48 silly currentTree │ ├── cross-spawn@7.0.3
+48 silly currentTree │ ├── path-key@3.1.1
+48 silly currentTree │ ├── shebang-command@2.0.0
+48 silly currentTree │ ├── shebang-regex@3.0.0
+48 silly currentTree │ └── which@2.0.2
+48 silly currentTree ├── executable@4.1.1
+48 silly currentTree ├── exit@0.1.2
+48 silly currentTree ├── expect@28.1.3
+48 silly currentTree ├── extend@3.0.2
+48 silly currentTree ├─┬ external-editor@3.1.0
+48 silly currentTree │ └── tmp@0.0.33
+48 silly currentTree ├── extract-zip@2.0.1
+48 silly currentTree ├── extsprintf@1.3.0
+48 silly currentTree ├── fast-deep-equal@3.1.3
+48 silly currentTree ├── fast-glob@3.2.11
+48 silly currentTree ├── fast-json-stable-stringify@2.1.0
+48 silly currentTree ├── fast-levenshtein@2.0.6
+48 silly currentTree ├── fastest-levenshtein@1.0.16
+48 silly currentTree ├── fastq@1.13.0
+48 silly currentTree ├── fb-watchman@2.0.1
+48 silly currentTree ├── fd-slicer@1.1.0
+48 silly currentTree ├── figures@3.2.0
+48 silly currentTree ├── file-entry-cache@5.0.1
+48 silly currentTree ├── fill-range@7.0.1
+48 silly currentTree ├── find-up@2.1.0
+48 silly currentTree ├── flat-cache@2.0.1
+48 silly currentTree ├── flat@5.0.2
+48 silly currentTree ├── flatted@2.0.2
+48 silly currentTree ├── forever-agent@0.6.1
+48 silly currentTree ├── form-data@2.3.3
+48 silly currentTree ├─┬ fs-extra@9.1.0
+48 silly currentTree │ ├── jsonfile@6.1.0
+48 silly currentTree │ └── universalify@2.0.0
+48 silly currentTree ├── fs.realpath@1.0.0
+48 silly currentTree ├── fsu@1.1.1
+48 silly currentTree ├── function-bind@1.1.1
+48 silly currentTree ├── functional-red-black-tree@1.0.1
+48 silly currentTree ├── gensync@1.0.0-beta.2
+48 silly currentTree ├── get-caller-file@2.0.5
+48 silly currentTree ├── get-intrinsic@1.1.1
+48 silly currentTree ├── get-package-type@0.1.0
+48 silly currentTree ├── get-stream@5.2.0
+48 silly currentTree ├── get-symbol-description@1.0.0
+48 silly currentTree ├── getos@3.2.1
+48 silly currentTree ├── getpass@0.1.7
+48 silly currentTree ├── glob-parent@5.1.2
+48 silly currentTree ├── glob@7.2.0
+48 silly currentTree ├─┬ global-dirs@3.0.0
+48 silly currentTree │ └── ini@2.0.0
+48 silly currentTree ├── global-modules@2.0.0
+48 silly currentTree ├── global-prefix@3.0.0
+48 silly currentTree ├── globals@12.4.0
+48 silly currentTree ├─┬ globby@11.1.0
+48 silly currentTree │ └── ignore@5.2.0
+48 silly currentTree ├── globjoin@0.1.4
+48 silly currentTree ├── graceful-fs@4.2.10
+48 silly currentTree ├── hard-rejection@2.1.0
+48 silly currentTree ├── has-bigints@1.0.1
+48 silly currentTree ├── has-flag@4.0.0
+48 silly currentTree ├── has-symbols@1.0.2
+48 silly currentTree ├── has-tostringtag@1.0.0
+48 silly currentTree ├── has@1.0.3
+48 silly currentTree ├── he@1.2.0
+48 silly currentTree ├─┬ hosted-git-info@4.1.0
+48 silly currentTree │ ├── lru-cache@6.0.0
+48 silly currentTree │ └── yallist@4.0.0
+48 silly currentTree ├── html-escaper@2.0.2
+48 silly currentTree ├── html-tags@3.2.0
+48 silly currentTree ├── http-signature@1.3.6
+48 silly currentTree ├── human-signals@1.1.1
+48 silly currentTree ├── iconv-lite@0.4.24
+48 silly currentTree ├── ieee754@1.2.1
+48 silly currentTree ├── ignore@4.0.6
+48 silly currentTree ├── import-fresh@3.3.0
+48 silly currentTree ├── import-lazy@4.0.0
+48 silly currentTree ├─┬ import-local@3.1.0
+48 silly currentTree │ ├── find-up@4.1.0
+48 silly currentTree │ ├── locate-path@5.0.0
+48 silly currentTree │ ├── p-limit@2.3.0
+48 silly currentTree │ ├── p-locate@4.1.0
+48 silly currentTree │ ├── p-try@2.2.0
+48 silly currentTree │ ├── path-exists@4.0.0
+48 silly currentTree │ └── pkg-dir@4.2.0
+48 silly currentTree ├── imurmurhash@0.1.4
+48 silly currentTree ├── indent-string@4.0.0
+48 silly currentTree ├── inflight@1.0.6
+48 silly currentTree ├── inherits@2.0.4
+48 silly currentTree ├── ini@1.3.8
+48 silly currentTree ├─┬ inquirer@7.3.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ └── strip-ansi@6.0.1
+48 silly currentTree ├── internal-slot@1.0.3
+48 silly currentTree ├── is-arrayish@0.2.1
+48 silly currentTree ├── is-bigint@1.0.4
+48 silly currentTree ├── is-binary-path@2.1.0
+48 silly currentTree ├── is-boolean-object@1.1.2
+48 silly currentTree ├── is-callable@1.2.4
+48 silly currentTree ├── is-ci@3.0.1
+48 silly currentTree ├── is-core-module@2.7.0
+48 silly currentTree ├── is-date-object@1.0.5
+48 silly currentTree ├── is-extglob@2.1.1
+48 silly currentTree ├── is-fullwidth-code-point@2.0.0
+48 silly currentTree ├── is-generator-fn@2.1.0
+48 silly currentTree ├── is-glob@4.0.3
+48 silly currentTree ├── is-installed-globally@0.4.0
+48 silly currentTree ├── is-negative-zero@2.0.1
+48 silly currentTree ├── is-number-object@1.0.6
+48 silly currentTree ├── is-number@7.0.0
+48 silly currentTree ├── is-path-inside@3.0.3
+48 silly currentTree ├── is-plain-obj@1.1.0
+48 silly currentTree ├── is-plain-object@5.0.0
+48 silly currentTree ├── is-regex@1.1.4
+48 silly currentTree ├── is-shared-array-buffer@1.0.1
+48 silly currentTree ├── is-stream@2.0.1
+48 silly currentTree ├── is-string@1.0.7
+48 silly currentTree ├── is-symbol@1.0.4
+48 silly currentTree ├── is-typedarray@1.0.0
+48 silly currentTree ├── is-unicode-supported@0.1.0
+48 silly currentTree ├── is-weakref@1.0.1
+48 silly currentTree ├── isexe@2.0.0
+48 silly currentTree ├── isstream@0.1.2
+48 silly currentTree ├── istanbul-lib-coverage@3.2.0
+48 silly currentTree ├── istanbul-lib-instrument@5.2.0
+48 silly currentTree ├── istanbul-lib-report@3.0.0
+48 silly currentTree ├── istanbul-lib-source-maps@4.0.1
+48 silly currentTree ├── istanbul-reports@3.1.5
+48 silly currentTree ├─┬ jest-changed-files@28.1.3
+48 silly currentTree │ ├── cross-spawn@7.0.3
+48 silly currentTree │ ├── execa@5.1.1
+48 silly currentTree │ ├── get-stream@6.0.1
+48 silly currentTree │ ├── human-signals@2.1.0
+48 silly currentTree │ ├── p-limit@3.1.0
+48 silly currentTree │ ├── path-key@3.1.1
+48 silly currentTree │ ├── shebang-command@2.0.0
+48 silly currentTree │ ├── shebang-regex@3.0.0
+48 silly currentTree │ └── which@2.0.2
+48 silly currentTree ├─┬ jest-circus@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ └── p-limit@3.1.0
+48 silly currentTree ├─┬ jest-cli@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ └── color-name@1.1.4
+48 silly currentTree ├─┬ jest-config@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ └── color-name@1.1.4
+48 silly currentTree ├─┬ jest-diff@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ └── color-name@1.1.4
+48 silly currentTree ├── jest-docblock@28.1.1
+48 silly currentTree ├─┬ jest-each@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ └── color-name@1.1.4
+48 silly currentTree ├── jest-environment-node@28.1.3
+48 silly currentTree ├── jest-get-type@28.0.2
+48 silly currentTree ├── jest-haste-map@28.1.3
+48 silly currentTree ├── jest-leak-detector@28.1.3
+48 silly currentTree ├─┬ jest-matcher-utils@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ └── color-name@1.1.4
+48 silly currentTree ├─┬ jest-message-util@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ └── color-name@1.1.4
+48 silly currentTree ├── jest-mock@28.1.3
+48 silly currentTree ├── jest-pnp-resolver@1.2.2
+48 silly currentTree ├── jest-regex-util@28.0.2
+48 silly currentTree ├── jest-resolve-dependencies@28.1.3
+48 silly currentTree ├─┬ jest-resolve@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ └── color-name@1.1.4
+48 silly currentTree ├─┬ jest-runner@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ └── p-limit@3.1.0
+48 silly currentTree ├─┬ jest-runtime@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ ├── cross-spawn@7.0.3
+48 silly currentTree │ ├── execa@5.1.1
+48 silly currentTree │ ├── get-stream@6.0.1
+48 silly currentTree │ ├── human-signals@2.1.0
+48 silly currentTree │ ├── path-key@3.1.1
+48 silly currentTree │ ├── shebang-command@2.0.0
+48 silly currentTree │ ├── shebang-regex@3.0.0
+48 silly currentTree │ ├── strip-bom@4.0.0
+48 silly currentTree │ └── which@2.0.2
+48 silly currentTree ├─┬ jest-snapshot@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ ├── lru-cache@6.0.0
+48 silly currentTree │ ├── semver@7.3.7
+48 silly currentTree │ └── yallist@4.0.0
+48 silly currentTree ├─┬ jest-util@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ └── color-name@1.1.4
+48 silly currentTree ├─┬ jest-validate@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── camelcase@6.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ └── color-name@1.1.4
+48 silly currentTree ├─┬ jest-watcher@28.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ └── color-name@1.1.4
+48 silly currentTree ├─┬ jest-worker@28.1.3
+48 silly currentTree │ └── supports-color@8.1.1
+48 silly currentTree ├── jest@28.1.3
+48 silly currentTree ├── js-tokens@4.0.0
+48 silly currentTree ├── js-yaml@3.14.1
+48 silly currentTree ├── jsbn@0.1.1
+48 silly currentTree ├── jsesc@2.5.2
+48 silly currentTree ├── json-parse-even-better-errors@2.3.1
+48 silly currentTree ├── json-schema-traverse@0.4.1
+48 silly currentTree ├── json-schema@0.4.0
+48 silly currentTree ├── json-stable-stringify-without-jsonify@1.0.1
+48 silly currentTree ├── json-stringify-safe@5.0.1
+48 silly currentTree ├── json5@2.2.1
+48 silly currentTree ├── jsonfile@4.0.0
+48 silly currentTree ├── jsprim@2.0.2
+48 silly currentTree ├── jsx-ast-utils@3.2.1
+48 silly currentTree ├── kind-of@6.0.3
+48 silly currentTree ├── kleur@3.0.3
+48 silly currentTree ├── known-css-properties@0.25.0
+48 silly currentTree ├── language-subtag-registry@0.3.21
+48 silly currentTree ├── language-tags@1.0.5
+48 silly currentTree ├── lazy-ass@1.6.0
+48 silly currentTree ├── leven@3.1.0
+48 silly currentTree ├── levn@0.3.0
+48 silly currentTree ├── lines-and-columns@1.1.6
+48 silly currentTree ├─┬ listr2@3.14.0
+48 silly currentTree │ ├── rxjs@7.5.6
+48 silly currentTree │ └── tslib@2.4.0
+48 silly currentTree ├── locate-path@2.0.0
+48 silly currentTree ├── lodash.clonedeep@4.5.0
+48 silly currentTree ├── lodash.isempty@4.4.0
+48 silly currentTree ├── lodash.isfunction@3.0.9
+48 silly currentTree ├── lodash.isobject@3.0.2
+48 silly currentTree ├── lodash.isstring@4.0.1
+48 silly currentTree ├── lodash.merge@4.6.2
+48 silly currentTree ├── lodash.once@4.1.1
+48 silly currentTree ├── lodash.truncate@4.4.2
+48 silly currentTree ├── lodash@4.17.21
+48 silly currentTree ├─┬ log-symbols@4.1.0
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ └── color-name@1.1.4
+48 silly currentTree ├─┬ log-update@4.0.0
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── astral-regex@2.0.0
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ ├── is-fullwidth-code-point@3.0.0
+48 silly currentTree │ ├── slice-ansi@4.0.0
+48 silly currentTree │ ├── strip-ansi@6.0.1
+48 silly currentTree │ └── wrap-ansi@6.2.0
+48 silly currentTree ├── loose-envify@1.4.0
+48 silly currentTree ├── lru-cache@4.1.5
+48 silly currentTree ├── make-dir@3.1.0
+48 silly currentTree ├── makeerror@1.0.12
+48 silly currentTree ├── map-obj@4.3.0
+48 silly currentTree ├── mathml-tag-names@2.1.3
+48 silly currentTree ├─┬ meow@9.0.0
+48 silly currentTree │ └── type-fest@0.18.1
+48 silly currentTree ├── merge-stream@2.0.0
+48 silly currentTree ├── merge2@1.4.1
+48 silly currentTree ├── micromatch@4.0.5
+48 silly currentTree ├── mime-db@1.52.0
+48 silly currentTree ├── mime-types@2.1.35
+48 silly currentTree ├── mimic-fn@2.1.0
+48 silly currentTree ├── min-indent@1.0.1
+48 silly currentTree ├── minimatch@3.0.4
+48 silly currentTree ├── minimist-options@4.1.0
+48 silly currentTree ├── minimist@1.2.6
+48 silly currentTree ├── mkdirp@0.5.5
+48 silly currentTree ├─┬ mocha@10.0.0
+48 silly currentTree │ ├── argparse@2.0.1
+48 silly currentTree │ ├── brace-expansion@2.0.1
+48 silly currentTree │ ├── escape-string-regexp@4.0.0
+48 silly currentTree │ ├── find-up@5.0.0
+48 silly currentTree │ ├── js-yaml@4.1.0
+48 silly currentTree │ ├── locate-path@6.0.0
+48 silly currentTree │ ├── minimatch@5.0.1
+48 silly currentTree │ ├── p-limit@3.1.0
+48 silly currentTree │ ├── p-locate@5.0.0
+48 silly currentTree │ ├── path-exists@4.0.0
+48 silly currentTree │ ├── supports-color@8.1.1
+48 silly currentTree │ └── yargs@16.2.0
+48 silly currentTree ├─┬ mochawesome-merge@4.2.1
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── cliui@6.0.0
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ ├── find-up@4.1.0
+48 silly currentTree │ ├── fs-extra@7.0.1
+48 silly currentTree │ ├── locate-path@5.0.0
+48 silly currentTree │ ├── p-limit@2.3.0
+48 silly currentTree │ ├── p-locate@4.1.0
+48 silly currentTree │ ├── p-try@2.2.0
+48 silly currentTree │ ├── path-exists@4.0.0
+48 silly currentTree │ ├── strip-ansi@6.0.1
+48 silly currentTree │ ├── wrap-ansi@6.2.0
+48 silly currentTree │ ├── y18n@4.0.3
+48 silly currentTree │ ├── yargs-parser@18.1.3
+48 silly currentTree │ └── yargs@15.4.1
+48 silly currentTree ├─┬ mochawesome-report-generator@6.2.0
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ ├── fs-extra@10.1.0
+48 silly currentTree │ ├── jsonfile@6.1.0
+48 silly currentTree │ └── universalify@2.0.0
+48 silly currentTree ├─┬ mochawesome@7.1.3
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── chalk@4.1.2
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ └── strip-ansi@6.0.1
+48 silly currentTree ├── ms@2.1.3
+48 silly currentTree ├── mute-stream@0.0.8
+48 silly currentTree ├── nanoid@3.3.3
+48 silly currentTree ├── natural-compare@1.4.0
+48 silly currentTree ├── nice-try@1.0.5
+48 silly currentTree ├── node-int64@0.4.0
+48 silly currentTree ├── node-releases@2.0.6
+48 silly currentTree ├─┬ normalize-package-data@3.0.3
+48 silly currentTree │ ├── lru-cache@6.0.0
+48 silly currentTree │ ├── semver@7.3.7
+48 silly currentTree │ └── yallist@4.0.0
+48 silly currentTree ├── normalize-path@3.0.0
+48 silly currentTree ├─┬ npm-run-path@4.0.1
+48 silly currentTree │ └── path-key@3.1.1
+48 silly currentTree ├── object-assign@4.1.1
+48 silly currentTree ├── object-inspect@1.11.0
+48 silly currentTree ├── object-keys@1.1.1
+48 silly currentTree ├── object.assign@4.1.2
+48 silly currentTree ├── object.entries@1.1.5
+48 silly currentTree ├── object.fromentries@2.0.5
+48 silly currentTree ├── object.hasown@1.1.0
+48 silly currentTree ├── object.values@1.1.5
+48 silly currentTree ├── once@1.4.0
+48 silly currentTree ├── onetime@5.1.2
+48 silly currentTree ├── opener@1.5.2
+48 silly currentTree ├── optionator@0.8.3
+48 silly currentTree ├── os-tmpdir@1.0.2
+48 silly currentTree ├── ospath@1.2.2
+48 silly currentTree ├── p-limit@1.3.0
+48 silly currentTree ├── p-locate@2.0.0
+48 silly currentTree ├── p-map@4.0.0
+48 silly currentTree ├── p-try@1.0.0
+48 silly currentTree ├── parent-module@1.0.1
+48 silly currentTree ├── parse-json@5.2.0
+48 silly currentTree ├── path-exists@3.0.0
+48 silly currentTree ├── path-is-absolute@1.0.1
+48 silly currentTree ├── path-key@2.0.1
+48 silly currentTree ├── path-parse@1.0.7
+48 silly currentTree ├── path-type@4.0.0
+48 silly currentTree ├── pend@1.2.0
+48 silly currentTree ├── performance-now@2.1.0
+48 silly currentTree ├── picocolors@1.0.0
+48 silly currentTree ├── picomatch@2.3.1
+48 silly currentTree ├── pify@2.3.0
+48 silly currentTree ├── pirates@4.0.5
+48 silly currentTree ├── pkg-dir@2.0.0
+48 silly currentTree ├── postcss-media-query-parser@0.2.3
+48 silly currentTree ├── postcss-resolve-nested-selector@0.1.1
+48 silly currentTree ├── postcss-safe-parser@6.0.0
+48 silly currentTree ├── postcss-selector-parser@6.0.10
+48 silly currentTree ├── postcss-value-parser@4.2.0
+48 silly currentTree ├─┬ postcss@8.4.16
+48 silly currentTree │ └── nanoid@3.3.4
+48 silly currentTree ├── prelude-ls@1.1.2
+48 silly currentTree ├── pretty-bytes@5.6.0
+48 silly currentTree ├─┬ pretty-format@28.1.3
+48 silly currentTree │ ├── ansi-styles@5.2.0
+48 silly currentTree │ └── react-is@18.2.0
+48 silly currentTree ├── progress@2.0.3
+48 silly currentTree ├── prompts@2.4.2
+48 silly currentTree ├── prop-types@15.7.2
+48 silly currentTree ├── proxy-from-env@1.0.0
+48 silly currentTree ├── pseudomap@1.0.2
+48 silly currentTree ├── psl@1.9.0
+48 silly currentTree ├── pump@3.0.0
+48 silly currentTree ├── punycode@2.1.1
+48 silly currentTree ├── qs@6.5.3
+48 silly currentTree ├── queue-microtask@1.2.3
+48 silly currentTree ├── quick-lru@4.0.1
+48 silly currentTree ├── randombytes@2.1.0
+48 silly currentTree ├── react-is@16.13.1
+48 silly currentTree ├─┬ read-pkg-up@7.0.1
+48 silly currentTree │ ├── find-up@4.1.0
+48 silly currentTree │ ├── locate-path@5.0.0
+48 silly currentTree │ ├── p-limit@2.3.0
+48 silly currentTree │ ├── p-locate@4.1.0
+48 silly currentTree │ ├── p-try@2.2.0
+48 silly currentTree │ └── path-exists@4.0.0
+48 silly currentTree ├─┬ read-pkg@5.2.0
+48 silly currentTree │ ├── hosted-git-info@2.8.9
+48 silly currentTree │ ├── normalize-package-data@2.5.0
+48 silly currentTree │ ├── semver@5.7.1
+48 silly currentTree │ └── type-fest@0.6.0
+48 silly currentTree ├── readdirp@3.6.0
+48 silly currentTree ├── redent@3.0.0
+48 silly currentTree ├── regenerator-runtime@0.13.9
+48 silly currentTree ├── regexp.prototype.flags@1.3.1
+48 silly currentTree ├── regexpp@2.0.1
+48 silly currentTree ├── request-progress@3.0.0
+48 silly currentTree ├── require-directory@2.1.1
+48 silly currentTree ├── require-from-string@2.0.2
+48 silly currentTree ├── require-main-filename@2.0.0
+48 silly currentTree ├─┬ resolve-cwd@3.0.0
+48 silly currentTree │ └── resolve-from@5.0.0
+48 silly currentTree ├── resolve-from@4.0.0
+48 silly currentTree ├── resolve.exports@1.1.0
+48 silly currentTree ├── resolve@1.20.0
+48 silly currentTree ├── restore-cursor@3.1.0
+48 silly currentTree ├── reusify@1.0.4
+48 silly currentTree ├── rfdc@1.3.0
+48 silly currentTree ├── rimraf@2.6.3
+48 silly currentTree ├── run-async@2.4.1
+48 silly currentTree ├── run-parallel@1.2.0
+48 silly currentTree ├── rxjs@6.6.7
+48 silly currentTree ├── safe-buffer@5.2.1
+48 silly currentTree ├── safer-buffer@2.1.2
+48 silly currentTree ├── semver@6.3.0
+48 silly currentTree ├── serialize-javascript@6.0.0
+48 silly currentTree ├── set-blocking@2.0.0
+48 silly currentTree ├── shebang-command@1.2.0
+48 silly currentTree ├── shebang-regex@1.0.0
+48 silly currentTree ├── side-channel@1.0.4
+48 silly currentTree ├── sigmund@1.0.1
+48 silly currentTree ├── signal-exit@3.0.7
+48 silly currentTree ├── sisteransi@1.0.5
+48 silly currentTree ├── slash@3.0.0
+48 silly currentTree ├─┬ slice-ansi@3.0.0
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── astral-regex@2.0.0
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ └── is-fullwidth-code-point@3.0.0
+48 silly currentTree ├── source-map-js@1.0.2
+48 silly currentTree ├── source-map-support@0.5.13
+48 silly currentTree ├── source-map@0.6.1
+48 silly currentTree ├── spdx-correct@3.1.1
+48 silly currentTree ├── spdx-exceptions@2.3.0
+48 silly currentTree ├── spdx-expression-parse@3.0.1
+48 silly currentTree ├── spdx-license-ids@3.0.12
+48 silly currentTree ├── sprintf-js@1.0.3
+48 silly currentTree ├── sshpk@1.17.0
+48 silly currentTree ├─┬ stack-utils@2.0.5
+48 silly currentTree │ └── escape-string-regexp@2.0.0
+48 silly currentTree ├─┬ string-length@4.0.2
+48 silly currentTree │ └── strip-ansi@6.0.1
+48 silly currentTree ├─┬ string-width@4.2.3
+48 silly currentTree │ ├── emoji-regex@8.0.0
+48 silly currentTree │ ├── is-fullwidth-code-point@3.0.0
+48 silly currentTree │ └── strip-ansi@6.0.1
+48 silly currentTree ├── string.prototype.matchall@4.0.6
+48 silly currentTree ├── string.prototype.trimend@1.0.4
+48 silly currentTree ├── string.prototype.trimstart@1.0.4
+48 silly currentTree ├─┬ strip-ansi@5.2.0
+48 silly currentTree │ └── ansi-regex@4.1.0
+48 silly currentTree ├── strip-bom@3.0.0
+48 silly currentTree ├── strip-final-newline@2.0.0
+48 silly currentTree ├── strip-indent@3.0.0
+48 silly currentTree ├── strip-json-comments@3.1.1
+48 silly currentTree ├── style-search@0.1.0
+48 silly currentTree ├── stylelint-config-recommended@9.0.0
+48 silly currentTree ├── stylelint-config-standard@28.0.0
+48 silly currentTree ├─┬ stylelint@14.11.0
+48 silly currentTree │ ├── ajv@8.11.0
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── astral-regex@2.0.0
+48 silly currentTree │ ├── balanced-match@2.0.0
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ ├── file-entry-cache@6.0.1
+48 silly currentTree │ ├── flat-cache@3.0.4
+48 silly currentTree │ ├── flatted@3.2.2
+48 silly currentTree │ ├── ignore@5.2.0
+48 silly currentTree │ ├── is-fullwidth-code-point@3.0.0
+48 silly currentTree │ ├── json-schema-traverse@1.0.0
+48 silly currentTree │ ├── resolve-from@5.0.0
+48 silly currentTree │ ├── rimraf@3.0.2
+48 silly currentTree │ ├── slice-ansi@4.0.0
+48 silly currentTree │ ├── strip-ansi@6.0.1
+48 silly currentTree │ └── table@6.8.0
+48 silly currentTree ├── supports-color@7.1.0
+48 silly currentTree ├── supports-hyperlinks@2.2.0
+48 silly currentTree ├── svg-tags@1.0.0
+48 silly currentTree ├─┬ table@5.4.6
+48 silly currentTree │ ├── emoji-regex@7.0.3
+48 silly currentTree │ ├── slice-ansi@2.1.0
+48 silly currentTree │ └── string-width@3.1.0
+48 silly currentTree ├── tcomb-validation@3.4.1
+48 silly currentTree ├── tcomb@3.2.29
+48 silly currentTree ├── terminal-link@2.1.1
+48 silly currentTree ├── test-exclude@6.0.0
+48 silly currentTree ├── text-table@0.2.0
+48 silly currentTree ├── throttleit@1.0.0
+48 silly currentTree ├── through@2.3.8
+48 silly currentTree ├─┬ tmp@0.2.1
+48 silly currentTree │ └── rimraf@3.0.2
+48 silly currentTree ├── tmpl@1.0.5
+48 silly currentTree ├── to-fast-properties@2.0.0
+48 silly currentTree ├── to-regex-range@5.0.1
+48 silly currentTree ├── tough-cookie@2.5.0
+48 silly currentTree ├── trim-newlines@3.0.1
+48 silly currentTree ├─┬ tsconfig-paths@3.11.0
+48 silly currentTree │ └── json5@1.0.1
+48 silly currentTree ├── tslib@1.14.1
+48 silly currentTree ├── tunnel-agent@0.6.0
+48 silly currentTree ├── tweetnacl@0.14.5
+48 silly currentTree ├── type-check@0.3.2
+48 silly currentTree ├── type-detect@4.0.8
+48 silly currentTree ├── type-fest@0.8.1
+48 silly currentTree ├── unbox-primitive@1.0.1
+48 silly currentTree ├── universalify@0.1.2
+48 silly currentTree ├── untildify@4.0.0
+48 silly currentTree ├── update-browserslist-db@1.0.5
+48 silly currentTree ├── uri-js@4.4.1
+48 silly currentTree ├── util-deprecate@1.0.2
+48 silly currentTree ├── uuid@8.3.2
+48 silly currentTree ├── v8-compile-cache@2.3.0
+48 silly currentTree ├── v8-to-istanbul@9.0.1
+48 silly currentTree ├── validate-npm-package-license@3.0.4
+48 silly currentTree ├── validator@13.7.0
+48 silly currentTree ├── verror@1.10.0
+48 silly currentTree ├── walker@1.0.8
+48 silly currentTree ├── which-boxed-primitive@1.0.2
+48 silly currentTree ├── which-module@2.0.0
+48 silly currentTree ├── which@1.3.1
+48 silly currentTree ├── word-wrap@1.2.3
+48 silly currentTree ├── workerpool@6.2.1
+48 silly currentTree ├─┬ wrap-ansi@7.0.0
+48 silly currentTree │ ├── ansi-styles@4.3.0
+48 silly currentTree │ ├── color-convert@2.0.1
+48 silly currentTree │ ├── color-name@1.1.4
+48 silly currentTree │ └── strip-ansi@6.0.1
+48 silly currentTree ├── wrappy@1.0.2
+48 silly currentTree ├── write-file-atomic@4.0.2
+48 silly currentTree ├── write@1.0.3
+48 silly currentTree ├── y18n@5.0.8
+48 silly currentTree ├── yallist@2.1.2
+48 silly currentTree ├── yaml@1.10.2
+48 silly currentTree ├── yargs-parser@20.2.4
+48 silly currentTree ├─┬ yargs-unparser@2.0.0
+48 silly currentTree │ ├── camelcase@6.3.0
+48 silly currentTree │ ├── decamelize@4.0.0
+48 silly currentTree │ └── is-plain-obj@2.1.0
+48 silly currentTree ├─┬ yargs@17.5.1
+48 silly currentTree │ └── yargs-parser@21.1.1
+48 silly currentTree ├── yauzl@2.10.0
+48 silly currentTree └── yocto-queue@0.1.0
+49 silly idealTree sd-0x-project-shopping-cart@1.0.0
+49 silly idealTree ├── @ampproject/remapping@2.2.0
+49 silly idealTree ├── @babel/code-frame@7.18.6
+49 silly idealTree ├── @babel/compat-data@7.18.13
+49 silly idealTree ├── @babel/core@7.18.13
+49 silly idealTree ├─┬ @babel/generator@7.18.13
+49 silly idealTree │ └── @jridgewell/gen-mapping@0.3.2
+49 silly idealTree ├── @babel/helper-compilation-targets@7.18.9
+49 silly idealTree ├── @babel/helper-environment-visitor@7.18.9
+49 silly idealTree ├── @babel/helper-function-name@7.18.9
+49 silly idealTree ├── @babel/helper-hoist-variables@7.18.6
+49 silly idealTree ├── @babel/helper-module-imports@7.18.6
+49 silly idealTree ├── @babel/helper-module-transforms@7.18.9
+49 silly idealTree ├── @babel/helper-plugin-utils@7.18.9
+49 silly idealTree ├── @babel/helper-simple-access@7.18.6
+49 silly idealTree ├── @babel/helper-split-export-declaration@7.18.6
+49 silly idealTree ├── @babel/helper-string-parser@7.18.10
+49 silly idealTree ├── @babel/helper-validator-identifier@7.18.6
+49 silly idealTree ├── @babel/helper-validator-option@7.18.6
+49 silly idealTree ├── @babel/helpers@7.18.9
+49 silly idealTree ├── @babel/highlight@7.18.6
+49 silly idealTree ├── @babel/parser@7.18.13
+49 silly idealTree ├── @babel/plugin-syntax-async-generators@7.8.4
+49 silly idealTree ├── @babel/plugin-syntax-bigint@7.8.3
+49 silly idealTree ├── @babel/plugin-syntax-class-properties@7.12.13
+49 silly idealTree ├── @babel/plugin-syntax-import-meta@7.10.4
+49 silly idealTree ├── @babel/plugin-syntax-json-strings@7.8.3
+49 silly idealTree ├── @babel/plugin-syntax-logical-assignment-operators@7.10.4
+49 silly idealTree ├── @babel/plugin-syntax-nullish-coalescing-operator@7.8.3
+49 silly idealTree ├── @babel/plugin-syntax-numeric-separator@7.10.4
+49 silly idealTree ├── @babel/plugin-syntax-object-rest-spread@7.8.3
+49 silly idealTree ├── @babel/plugin-syntax-optional-catch-binding@7.8.3
+49 silly idealTree ├── @babel/plugin-syntax-optional-chaining@7.8.3
+49 silly idealTree ├── @babel/plugin-syntax-top-level-await@7.14.5
+49 silly idealTree ├── @babel/plugin-syntax-typescript@7.18.6
+49 silly idealTree ├── @babel/runtime-corejs3@7.15.4
+49 silly idealTree ├── @babel/runtime@7.15.4
+49 silly idealTree ├── @babel/template@7.18.10
+49 silly idealTree ├─┬ @babel/traverse@7.18.13
+49 silly idealTree │ └── globals@11.12.0
+49 silly idealTree ├── @babel/types@7.18.13
+49 silly idealTree ├── @bcoe/v8-coverage@0.2.3
+49 silly idealTree ├── @colors/colors@1.5.0
+49 silly idealTree ├── @csstools/selector-specificity@2.0.2
+49 silly idealTree ├── @cypress/request@2.88.10
+49 silly idealTree ├─┬ @cypress/xvfb@1.2.4
+49 silly idealTree │ └── debug@3.2.7
+49 silly idealTree ├─┬ @eslint/eslintrc@0.4.3
+49 silly idealTree │ ├── espree@7.3.1
+49 silly idealTree │ ├── globals@13.11.0
+49 silly idealTree │ └── type-fest@0.20.2
+49 silly idealTree ├── @humanwhocodes/config-array@0.5.0
+49 silly idealTree ├── @humanwhocodes/object-schema@1.2.0
+49 silly idealTree ├─┬ @istanbuljs/load-nyc-config@1.1.0
+49 silly idealTree │ ├── find-up@4.1.0
+49 silly idealTree │ ├── locate-path@5.0.0
+49 silly idealTree │ ├── p-limit@2.3.0
+49 silly idealTree │ ├── p-locate@4.1.0
+49 silly idealTree │ ├── p-try@2.2.0
+49 silly idealTree │ ├── path-exists@4.0.0
+49 silly idealTree │ └── resolve-from@5.0.0
+49 silly idealTree ├── @istanbuljs/schema@0.1.3
+49 silly idealTree ├─┬ @jest/console@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ └── color-name@1.1.4
+49 silly idealTree ├─┬ @jest/core@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ ├── rimraf@3.0.2
+49 silly idealTree │ └── strip-ansi@6.0.1
+49 silly idealTree ├── @jest/environment@28.1.3
+49 silly idealTree ├── @jest/expect-utils@28.1.3
+49 silly idealTree ├── @jest/expect@28.1.3
+49 silly idealTree ├── @jest/fake-timers@28.1.3
+49 silly idealTree ├── @jest/globals@28.1.3
+49 silly idealTree ├─┬ @jest/reporters@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ └── strip-ansi@6.0.1
+49 silly idealTree ├── @jest/schemas@28.1.3
+49 silly idealTree ├── @jest/source-map@28.1.2
+49 silly idealTree ├── @jest/test-result@28.1.3
+49 silly idealTree ├── @jest/test-sequencer@28.1.3
+49 silly idealTree ├─┬ @jest/transform@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ └── color-name@1.1.4
+49 silly idealTree ├─┬ @jest/types@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ └── color-name@1.1.4
+49 silly idealTree ├── @jridgewell/gen-mapping@0.1.1
+49 silly idealTree ├── @jridgewell/resolve-uri@3.1.0
+49 silly idealTree ├── @jridgewell/set-array@1.1.2
+49 silly idealTree ├── @jridgewell/sourcemap-codec@1.4.14
+49 silly idealTree ├── @jridgewell/trace-mapping@0.3.15
+49 silly idealTree ├── @nodelib/fs.scandir@2.1.5
+49 silly idealTree ├── @nodelib/fs.stat@2.0.5
+49 silly idealTree ├── @nodelib/fs.walk@1.2.8
+49 silly idealTree ├── @sinclair/typebox@0.24.28
+49 silly idealTree ├── @sinonjs/commons@1.8.3
+49 silly idealTree ├── @sinonjs/fake-timers@9.1.2
+49 silly idealTree ├── @types/babel__core@7.1.19
+49 silly idealTree ├── @types/babel__generator@7.6.4
+49 silly idealTree ├── @types/babel__template@7.4.1
+49 silly idealTree ├── @types/babel__traverse@7.18.0
+49 silly idealTree ├── @types/graceful-fs@4.1.5
+49 silly idealTree ├── @types/istanbul-lib-coverage@2.0.4
+49 silly idealTree ├── @types/istanbul-lib-report@3.0.0
+49 silly idealTree ├── @types/istanbul-reports@3.0.1
+49 silly idealTree ├── @types/json5@0.0.29
+49 silly idealTree ├── @types/minimist@1.2.2
+49 silly idealTree ├── @types/node@14.18.26
+49 silly idealTree ├── @types/normalize-package-data@2.4.1
+49 silly idealTree ├── @types/parse-json@4.0.0
+49 silly idealTree ├── @types/prettier@2.7.0
+49 silly idealTree ├── @types/sinonjs__fake-timers@8.1.1
+49 silly idealTree ├── @types/sizzle@2.3.3
+49 silly idealTree ├── @types/stack-utils@2.0.1
+49 silly idealTree ├── @types/yargs-parser@21.0.0
+49 silly idealTree ├── @types/yargs@17.0.11
+49 silly idealTree ├── @types/yauzl@2.10.0
+49 silly idealTree ├── @ungap/promise-all-settled@1.1.2
+49 silly idealTree ├── acorn-jsx@5.3.2
+49 silly idealTree ├── acorn@7.4.1
+49 silly idealTree ├── aggregate-error@3.1.0
+49 silly idealTree ├── ajv@6.12.6
+49 silly idealTree ├── ansi-colors@4.1.1
+49 silly idealTree ├─┬ ansi-escapes@4.3.2
+49 silly idealTree │ └── type-fest@0.21.3
+49 silly idealTree ├── ansi-regex@5.0.1
+49 silly idealTree ├── ansi-styles@3.2.1
+49 silly idealTree ├── anymatch@3.1.2
+49 silly idealTree ├── arch@2.2.0
+49 silly idealTree ├── argparse@1.0.10
+49 silly idealTree ├── aria-query@4.2.2
+49 silly idealTree ├── array-includes@3.1.4
+49 silly idealTree ├── array-union@2.1.0
+49 silly idealTree ├── array.prototype.flat@1.2.5
+49 silly idealTree ├── array.prototype.flatmap@1.2.5
+49 silly idealTree ├── arrify@1.0.1
+49 silly idealTree ├── asn1@0.2.6
+49 silly idealTree ├── assert-plus@1.0.0
+49 silly idealTree ├── ast-types-flow@0.0.7
+49 silly idealTree ├── astral-regex@1.0.0
+49 silly idealTree ├── async@3.2.4
+49 silly idealTree ├── asynckit@0.4.0
+49 silly idealTree ├── at-least-node@1.0.0
+49 silly idealTree ├── aws-sign2@0.7.0
+49 silly idealTree ├── aws4@1.11.0
+49 silly idealTree ├── axe-core@4.3.3
+49 silly idealTree ├── axobject-query@2.2.0
+49 silly idealTree ├─┬ babel-jest@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ └── color-name@1.1.4
+49 silly idealTree ├── babel-plugin-istanbul@6.1.1
+49 silly idealTree ├── babel-plugin-jest-hoist@28.1.3
+49 silly idealTree ├── babel-preset-current-node-syntax@1.0.1
+49 silly idealTree ├── babel-preset-jest@28.1.3
+49 silly idealTree ├── balanced-match@1.0.2
+49 silly idealTree ├── base64-js@1.5.1
+49 silly idealTree ├── bcrypt-pbkdf@1.0.2
+49 silly idealTree ├── binary-extensions@2.2.0
+49 silly idealTree ├── blob-util@2.0.2
+49 silly idealTree ├── bluebird@3.7.2
+49 silly idealTree ├── brace-expansion@1.1.11
+49 silly idealTree ├── braces@3.0.2
+49 silly idealTree ├── browser-stdout@1.3.1
+49 silly idealTree ├── browserslist@4.21.3
+49 silly idealTree ├── bser@2.1.1
+49 silly idealTree ├── buffer-crc32@0.2.13
+49 silly idealTree ├── buffer-from@1.1.2
+49 silly idealTree ├── buffer@5.7.1
+49 silly idealTree ├── cachedir@2.3.0
+49 silly idealTree ├── call-bind@1.0.2
+49 silly idealTree ├── callsites@3.1.0
+49 silly idealTree ├── camelcase-keys@6.2.2
+49 silly idealTree ├── camelcase@5.3.1
+49 silly idealTree ├── caniuse-lite@1.0.30001382
+49 silly idealTree ├── caseless@0.12.0
+49 silly idealTree ├─┬ chalk@2.4.2
+49 silly idealTree │ ├── has-flag@3.0.0
+49 silly idealTree │ └── supports-color@5.5.0
+49 silly idealTree ├── char-regex@1.0.2
+49 silly idealTree ├── chardet@0.7.0
+49 silly idealTree ├── check-more-types@2.24.0
+49 silly idealTree ├── chokidar@3.5.3
+49 silly idealTree ├── ci-info@3.3.2
+49 silly idealTree ├── cjs-module-lexer@1.2.2
+49 silly idealTree ├── clean-stack@2.2.0
+49 silly idealTree ├── cli-cursor@3.1.0
+49 silly idealTree ├── cli-table3@0.6.2
+49 silly idealTree ├── cli-truncate@2.1.0
+49 silly idealTree ├── cli-width@3.0.0
+49 silly idealTree ├─┬ cliui@7.0.4
+49 silly idealTree │ └── strip-ansi@6.0.1
+49 silly idealTree ├── co@4.6.0
+49 silly idealTree ├── collect-v8-coverage@1.0.1
+49 silly idealTree ├── color-convert@1.9.3
+49 silly idealTree ├── color-name@1.1.3
+49 silly idealTree ├── colord@2.9.3
+49 silly idealTree ├── colorette@2.0.19
+49 silly idealTree ├── combined-stream@1.0.8
+49 silly idealTree ├── commander@5.1.0
+49 silly idealTree ├── common-tags@1.8.0
+49 silly idealTree ├── concat-map@0.0.1
+49 silly idealTree ├── confusing-browser-globals@1.0.10
+49 silly idealTree ├─┬ convert-source-map@1.8.0
+49 silly idealTree │ └── safe-buffer@5.1.2
+49 silly idealTree ├── core-js-pure@3.18.3
+49 silly idealTree ├── core-util-is@1.0.2
+49 silly idealTree ├── cosmiconfig@7.0.1
+49 silly idealTree ├─┬ cross-spawn@6.0.5
+49 silly idealTree │ └── semver@5.7.1
+49 silly idealTree ├── css-functions-list@3.1.0
+49 silly idealTree ├── cssesc@3.0.0
+49 silly idealTree ├── cypress-multi-reporters@1.6.1
+49 silly idealTree ├─┬ cypress@10.6.0
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├─┬ chalk@4.1.2
+49 silly idealTree │ │ └── supports-color@7.2.0
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ ├── lru-cache@6.0.0
+49 silly idealTree │ ├── semver@7.3.7
+49 silly idealTree │ ├── supports-color@8.1.1
+49 silly idealTree │ └── yallist@4.0.0
+49 silly idealTree ├── damerau-levenshtein@1.0.7
+49 silly idealTree ├── dashdash@1.14.1
+49 silly idealTree ├── dateformat@4.6.3
+49 silly idealTree ├── dayjs@1.11.5
+49 silly idealTree ├─┬ debug@4.3.4
+49 silly idealTree │ └── ms@2.1.2
+49 silly idealTree ├─┬ decamelize-keys@1.1.0
+49 silly idealTree │ └── map-obj@1.0.1
+49 silly idealTree ├── decamelize@1.2.0
+49 silly idealTree ├── dedent@0.7.0
+49 silly idealTree ├── deep-is@0.1.4
+49 silly idealTree ├── deepmerge@4.2.2
+49 silly idealTree ├── define-properties@1.1.3
+49 silly idealTree ├── delayed-stream@1.0.0
+49 silly idealTree ├── detect-newline@3.1.0
+49 silly idealTree ├── diff-sequences@28.1.1
+49 silly idealTree ├── diff@5.0.0
+49 silly idealTree ├── dir-glob@3.0.1
+49 silly idealTree ├── doctrine@3.0.0
+49 silly idealTree ├── ecc-jsbn@0.1.2
+49 silly idealTree ├─┬ editorconfig@0.15.3
+49 silly idealTree │ ├── commander@2.20.3
+49 silly idealTree │ └── semver@5.7.1
+49 silly idealTree ├── electron-to-chromium@1.4.228
+49 silly idealTree ├── emittery@0.10.2
+49 silly idealTree ├── emoji-regex@9.2.2
+49 silly idealTree ├── end-of-stream@1.4.4
+49 silly idealTree ├── enquirer@2.3.6
+49 silly idealTree ├── error-ex@1.3.2
+49 silly idealTree ├── es-abstract@1.19.1
+49 silly idealTree ├── es-to-primitive@1.2.1
+49 silly idealTree ├── escalade@3.1.1
+49 silly idealTree ├── escape-html@1.0.3
+49 silly idealTree ├── escape-string-regexp@1.0.5
+49 silly idealTree ├── eslint-config-airbnb-base@14.2.1
+49 silly idealTree ├── eslint-config-airbnb@18.2.1
+49 silly idealTree ├── eslint-config-trybe-fundamentals@1.1.1
+49 silly idealTree ├─┬ eslint-import-resolver-node@0.3.6
+49 silly idealTree │ └── debug@3.2.7
+49 silly idealTree ├─┬ eslint-module-utils@2.7.1
+49 silly idealTree │ └── debug@3.2.7
+49 silly idealTree ├─┬ eslint-plugin-editorconfig@2.1.3
+49 silly idealTree │ ├── @babel/code-frame@7.12.11
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── astral-regex@2.0.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ ├── cross-spawn@7.0.3
+49 silly idealTree │ ├── escape-string-regexp@4.0.0
+49 silly idealTree │ ├── eslint-utils@2.1.0
+49 silly idealTree │ ├─┬ eslint@7.32.0
+49 silly idealTree │ │ └── eslint-visitor-keys@2.1.0
+49 silly idealTree │ ├── espree@7.3.1
+49 silly idealTree │ ├── file-entry-cache@6.0.1
+49 silly idealTree │ ├── flat-cache@3.0.4
+49 silly idealTree │ ├── flatted@3.2.2
+49 silly idealTree │ ├── globals@13.11.0
+49 silly idealTree │ ├── is-fullwidth-code-point@3.0.0
+49 silly idealTree │ ├── json-schema-traverse@1.0.0
+49 silly idealTree │ ├── levn@0.4.1
+49 silly idealTree │ ├── lru-cache@6.0.0
+49 silly idealTree │ ├── optionator@0.9.1
+49 silly idealTree │ ├── path-key@3.1.1
+49 silly idealTree │ ├── prelude-ls@1.2.1
+49 silly idealTree │ ├── regexpp@3.2.0
+49 silly idealTree │ ├── rimraf@3.0.2
+49 silly idealTree │ ├── semver@7.3.5
+49 silly idealTree │ ├── shebang-command@2.0.0
+49 silly idealTree │ ├── shebang-regex@3.0.0
+49 silly idealTree │ ├── slice-ansi@4.0.0
+49 silly idealTree │ ├── strip-ansi@6.0.1
+49 silly idealTree │ ├─┬ table@6.7.2
+49 silly idealTree │ │ └── ajv@8.6.3
+49 silly idealTree │ ├── type-check@0.4.0
+49 silly idealTree │ ├── type-fest@0.20.2
+49 silly idealTree │ ├── which@2.0.2
+49 silly idealTree │ └── yallist@4.0.0
+49 silly idealTree ├─┬ eslint-plugin-import@2.25.2
+49 silly idealTree │ ├── debug@2.6.9
+49 silly idealTree │ ├── doctrine@2.1.0
+49 silly idealTree │ └── ms@2.0.0
+49 silly idealTree ├── eslint-plugin-jsx-a11y@6.4.1
+49 silly idealTree ├── eslint-plugin-react-hooks@4.2.0
+49 silly idealTree ├─┬ eslint-plugin-react@7.26.1
+49 silly idealTree │ ├── doctrine@2.1.0
+49 silly idealTree │ └── resolve@2.0.0-next.3
+49 silly idealTree ├── eslint-plugin-sonarjs@0.5.0
+49 silly idealTree ├─┬ eslint-scope@5.1.1
+49 silly idealTree │ └── estraverse@4.3.0
+49 silly idealTree ├── eslint-utils@1.4.3
+49 silly idealTree ├── eslint-visitor-keys@1.3.0
+49 silly idealTree ├── eslint@6.8.0
+49 silly idealTree ├── espree@6.2.1
+49 silly idealTree ├── esprima@4.0.1
+49 silly idealTree ├── esquery@1.4.0
+49 silly idealTree ├── esrecurse@4.3.0
+49 silly idealTree ├── estraverse@5.2.0
+49 silly idealTree ├── esutils@2.0.3
+49 silly idealTree ├── eventemitter2@6.4.7
+49 silly idealTree ├─┬ execa@4.1.0
+49 silly idealTree │ ├── cross-spawn@7.0.3
+49 silly idealTree │ ├── path-key@3.1.1
+49 silly idealTree │ ├── shebang-command@2.0.0
+49 silly idealTree │ ├── shebang-regex@3.0.0
+49 silly idealTree │ └── which@2.0.2
+49 silly idealTree ├── executable@4.1.1
+49 silly idealTree ├── exit@0.1.2
+49 silly idealTree ├── expect@28.1.3
+49 silly idealTree ├── extend@3.0.2
+49 silly idealTree ├─┬ external-editor@3.1.0
+49 silly idealTree │ └── tmp@0.0.33
+49 silly idealTree ├── extract-zip@2.0.1
+49 silly idealTree ├── extsprintf@1.3.0
+49 silly idealTree ├── fast-deep-equal@3.1.3
+49 silly idealTree ├── fast-glob@3.2.11
+49 silly idealTree ├── fast-json-stable-stringify@2.1.0
+49 silly idealTree ├── fast-levenshtein@2.0.6
+49 silly idealTree ├── fastest-levenshtein@1.0.16
+49 silly idealTree ├── fastq@1.13.0
+49 silly idealTree ├── fb-watchman@2.0.1
+49 silly idealTree ├── fd-slicer@1.1.0
+49 silly idealTree ├── figures@3.2.0
+49 silly idealTree ├── file-entry-cache@5.0.1
+49 silly idealTree ├── fill-range@7.0.1
+49 silly idealTree ├── find-up@2.1.0
+49 silly idealTree ├── flat-cache@2.0.1
+49 silly idealTree ├── flat@5.0.2
+49 silly idealTree ├── flatted@2.0.2
+49 silly idealTree ├── forever-agent@0.6.1
+49 silly idealTree ├── form-data@2.3.3
+49 silly idealTree ├─┬ fs-extra@9.1.0
+49 silly idealTree │ ├── jsonfile@6.1.0
+49 silly idealTree │ └── universalify@2.0.0
+49 silly idealTree ├── fs.realpath@1.0.0
+49 silly idealTree ├── fsu@1.1.1
+49 silly idealTree ├── function-bind@1.1.1
+49 silly idealTree ├── functional-red-black-tree@1.0.1
+49 silly idealTree ├── gensync@1.0.0-beta.2
+49 silly idealTree ├── get-caller-file@2.0.5
+49 silly idealTree ├── get-intrinsic@1.1.1
+49 silly idealTree ├── get-package-type@0.1.0
+49 silly idealTree ├── get-stream@5.2.0
+49 silly idealTree ├── get-symbol-description@1.0.0
+49 silly idealTree ├── getos@3.2.1
+49 silly idealTree ├── getpass@0.1.7
+49 silly idealTree ├── glob-parent@5.1.2
+49 silly idealTree ├── glob@7.2.0
+49 silly idealTree ├─┬ global-dirs@3.0.0
+49 silly idealTree │ └── ini@2.0.0
+49 silly idealTree ├── global-modules@2.0.0
+49 silly idealTree ├── global-prefix@3.0.0
+49 silly idealTree ├── globals@12.4.0
+49 silly idealTree ├─┬ globby@11.1.0
+49 silly idealTree │ └── ignore@5.2.0
+49 silly idealTree ├── globjoin@0.1.4
+49 silly idealTree ├── graceful-fs@4.2.10
+49 silly idealTree ├── hard-rejection@2.1.0
+49 silly idealTree ├── has-bigints@1.0.1
+49 silly idealTree ├── has-flag@4.0.0
+49 silly idealTree ├── has-symbols@1.0.2
+49 silly idealTree ├── has-tostringtag@1.0.0
+49 silly idealTree ├── has@1.0.3
+49 silly idealTree ├── he@1.2.0
+49 silly idealTree ├─┬ hosted-git-info@4.1.0
+49 silly idealTree │ ├── lru-cache@6.0.0
+49 silly idealTree │ └── yallist@4.0.0
+49 silly idealTree ├── html-escaper@2.0.2
+49 silly idealTree ├── html-tags@3.2.0
+49 silly idealTree ├── http-signature@1.3.6
+49 silly idealTree ├── human-signals@1.1.1
+49 silly idealTree ├── iconv-lite@0.4.24
+49 silly idealTree ├── ieee754@1.2.1
+49 silly idealTree ├── ignore@4.0.6
+49 silly idealTree ├── import-fresh@3.3.0
+49 silly idealTree ├── import-lazy@4.0.0
+49 silly idealTree ├─┬ import-local@3.1.0
+49 silly idealTree │ ├── find-up@4.1.0
+49 silly idealTree │ ├── locate-path@5.0.0
+49 silly idealTree │ ├── p-limit@2.3.0
+49 silly idealTree │ ├── p-locate@4.1.0
+49 silly idealTree │ ├── p-try@2.2.0
+49 silly idealTree │ ├── path-exists@4.0.0
+49 silly idealTree │ └── pkg-dir@4.2.0
+49 silly idealTree ├── imurmurhash@0.1.4
+49 silly idealTree ├── indent-string@4.0.0
+49 silly idealTree ├── inflight@1.0.6
+49 silly idealTree ├── inherits@2.0.4
+49 silly idealTree ├── ini@1.3.8
+49 silly idealTree ├─┬ inquirer@7.3.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ └── strip-ansi@6.0.1
+49 silly idealTree ├── internal-slot@1.0.3
+49 silly idealTree ├── is-arrayish@0.2.1
+49 silly idealTree ├── is-bigint@1.0.4
+49 silly idealTree ├── is-binary-path@2.1.0
+49 silly idealTree ├── is-boolean-object@1.1.2
+49 silly idealTree ├── is-callable@1.2.4
+49 silly idealTree ├── is-ci@3.0.1
+49 silly idealTree ├── is-core-module@2.7.0
+49 silly idealTree ├── is-date-object@1.0.5
+49 silly idealTree ├── is-extglob@2.1.1
+49 silly idealTree ├── is-fullwidth-code-point@2.0.0
+49 silly idealTree ├── is-generator-fn@2.1.0
+49 silly idealTree ├── is-glob@4.0.3
+49 silly idealTree ├── is-installed-globally@0.4.0
+49 silly idealTree ├── is-negative-zero@2.0.1
+49 silly idealTree ├── is-number-object@1.0.6
+49 silly idealTree ├── is-number@7.0.0
+49 silly idealTree ├── is-path-inside@3.0.3
+49 silly idealTree ├── is-plain-obj@1.1.0
+49 silly idealTree ├── is-plain-object@5.0.0
+49 silly idealTree ├── is-regex@1.1.4
+49 silly idealTree ├── is-shared-array-buffer@1.0.1
+49 silly idealTree ├── is-stream@2.0.1
+49 silly idealTree ├── is-string@1.0.7
+49 silly idealTree ├── is-symbol@1.0.4
+49 silly idealTree ├── is-typedarray@1.0.0
+49 silly idealTree ├── is-unicode-supported@0.1.0
+49 silly idealTree ├── is-weakref@1.0.1
+49 silly idealTree ├── isexe@2.0.0
+49 silly idealTree ├── isstream@0.1.2
+49 silly idealTree ├── istanbul-lib-coverage@3.2.0
+49 silly idealTree ├── istanbul-lib-instrument@5.2.0
+49 silly idealTree ├── istanbul-lib-report@3.0.0
+49 silly idealTree ├── istanbul-lib-source-maps@4.0.1
+49 silly idealTree ├── istanbul-reports@3.1.5
+49 silly idealTree ├─┬ jest-changed-files@28.1.3
+49 silly idealTree │ ├── cross-spawn@7.0.3
+49 silly idealTree │ ├── execa@5.1.1
+49 silly idealTree │ ├── get-stream@6.0.1
+49 silly idealTree │ ├── human-signals@2.1.0
+49 silly idealTree │ ├── p-limit@3.1.0
+49 silly idealTree │ ├── path-key@3.1.1
+49 silly idealTree │ ├── shebang-command@2.0.0
+49 silly idealTree │ ├── shebang-regex@3.0.0
+49 silly idealTree │ └── which@2.0.2
+49 silly idealTree ├─┬ jest-circus@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ └── p-limit@3.1.0
+49 silly idealTree ├─┬ jest-cli@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ └── color-name@1.1.4
+49 silly idealTree ├─┬ jest-config@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ └── color-name@1.1.4
+49 silly idealTree ├─┬ jest-diff@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ └── color-name@1.1.4
+49 silly idealTree ├── jest-docblock@28.1.1
+49 silly idealTree ├─┬ jest-each@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ └── color-name@1.1.4
+49 silly idealTree ├── jest-environment-node@28.1.3
+49 silly idealTree ├── jest-get-type@28.0.2
+49 silly idealTree ├── jest-haste-map@28.1.3
+49 silly idealTree ├── jest-leak-detector@28.1.3
+49 silly idealTree ├─┬ jest-matcher-utils@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ └── color-name@1.1.4
+49 silly idealTree ├─┬ jest-message-util@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ └── color-name@1.1.4
+49 silly idealTree ├── jest-mock@28.1.3
+49 silly idealTree ├── jest-pnp-resolver@1.2.2
+49 silly idealTree ├── jest-regex-util@28.0.2
+49 silly idealTree ├── jest-resolve-dependencies@28.1.3
+49 silly idealTree ├─┬ jest-resolve@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ └── color-name@1.1.4
+49 silly idealTree ├─┬ jest-runner@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ └── p-limit@3.1.0
+49 silly idealTree ├─┬ jest-runtime@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ ├── cross-spawn@7.0.3
+49 silly idealTree │ ├── execa@5.1.1
+49 silly idealTree │ ├── get-stream@6.0.1
+49 silly idealTree │ ├── human-signals@2.1.0
+49 silly idealTree │ ├── path-key@3.1.1
+49 silly idealTree │ ├── shebang-command@2.0.0
+49 silly idealTree │ ├── shebang-regex@3.0.0
+49 silly idealTree │ ├── strip-bom@4.0.0
+49 silly idealTree │ └── which@2.0.2
+49 silly idealTree ├─┬ jest-snapshot@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ ├── lru-cache@6.0.0
+49 silly idealTree │ ├── semver@7.3.7
+49 silly idealTree │ └── yallist@4.0.0
+49 silly idealTree ├─┬ jest-util@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ └── color-name@1.1.4
+49 silly idealTree ├─┬ jest-validate@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── camelcase@6.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ └── color-name@1.1.4
+49 silly idealTree ├─┬ jest-watcher@28.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ └── color-name@1.1.4
+49 silly idealTree ├─┬ jest-worker@28.1.3
+49 silly idealTree │ └── supports-color@8.1.1
+49 silly idealTree ├── jest@28.1.3
+49 silly idealTree ├── js-tokens@4.0.0
+49 silly idealTree ├── js-yaml@3.14.1
+49 silly idealTree ├── jsbn@0.1.1
+49 silly idealTree ├── jsesc@2.5.2
+49 silly idealTree ├── json-parse-even-better-errors@2.3.1
+49 silly idealTree ├── json-schema-traverse@0.4.1
+49 silly idealTree ├── json-schema@0.4.0
+49 silly idealTree ├── json-stable-stringify-without-jsonify@1.0.1
+49 silly idealTree ├── json-stringify-safe@5.0.1
+49 silly idealTree ├── json5@2.2.1
+49 silly idealTree ├── jsonfile@4.0.0
+49 silly idealTree ├── jsprim@2.0.2
+49 silly idealTree ├── jsx-ast-utils@3.2.1
+49 silly idealTree ├── kind-of@6.0.3
+49 silly idealTree ├── kleur@3.0.3
+49 silly idealTree ├── known-css-properties@0.25.0
+49 silly idealTree ├── language-subtag-registry@0.3.21
+49 silly idealTree ├── language-tags@1.0.5
+49 silly idealTree ├── lazy-ass@1.6.0
+49 silly idealTree ├── leven@3.1.0
+49 silly idealTree ├── levn@0.3.0
+49 silly idealTree ├── lines-and-columns@1.1.6
+49 silly idealTree ├─┬ listr2@3.14.0
+49 silly idealTree │ ├── rxjs@7.5.6
+49 silly idealTree │ └── tslib@2.4.0
+49 silly idealTree ├── locate-path@2.0.0
+49 silly idealTree ├── lodash.clonedeep@4.5.0
+49 silly idealTree ├── lodash.isempty@4.4.0
+49 silly idealTree ├── lodash.isfunction@3.0.9
+49 silly idealTree ├── lodash.isobject@3.0.2
+49 silly idealTree ├── lodash.isstring@4.0.1
+49 silly idealTree ├── lodash.merge@4.6.2
+49 silly idealTree ├── lodash.once@4.1.1
+49 silly idealTree ├── lodash.truncate@4.4.2
+49 silly idealTree ├── lodash@4.17.21
+49 silly idealTree ├─┬ log-symbols@4.1.0
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ └── color-name@1.1.4
+49 silly idealTree ├─┬ log-update@4.0.0
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── astral-regex@2.0.0
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ ├── is-fullwidth-code-point@3.0.0
+49 silly idealTree │ ├── slice-ansi@4.0.0
+49 silly idealTree │ ├── strip-ansi@6.0.1
+49 silly idealTree │ └── wrap-ansi@6.2.0
+49 silly idealTree ├── loose-envify@1.4.0
+49 silly idealTree ├── lru-cache@4.1.5
+49 silly idealTree ├── make-dir@3.1.0
+49 silly idealTree ├── makeerror@1.0.12
+49 silly idealTree ├── map-obj@4.3.0
+49 silly idealTree ├── mathml-tag-names@2.1.3
+49 silly idealTree ├─┬ meow@9.0.0
+49 silly idealTree │ └── type-fest@0.18.1
+49 silly idealTree ├── merge-stream@2.0.0
+49 silly idealTree ├── merge2@1.4.1
+49 silly idealTree ├── micromatch@4.0.5
+49 silly idealTree ├── mime-db@1.52.0
+49 silly idealTree ├── mime-types@2.1.35
+49 silly idealTree ├── mimic-fn@2.1.0
+49 silly idealTree ├── min-indent@1.0.1
+49 silly idealTree ├── minimatch@3.0.4
+49 silly idealTree ├── minimist-options@4.1.0
+49 silly idealTree ├── minimist@1.2.6
+49 silly idealTree ├── mkdirp@0.5.5
+49 silly idealTree ├─┬ mocha@10.0.0
+49 silly idealTree │ ├── argparse@2.0.1
+49 silly idealTree │ ├── brace-expansion@2.0.1
+49 silly idealTree │ ├── escape-string-regexp@4.0.0
+49 silly idealTree │ ├── find-up@5.0.0
+49 silly idealTree │ ├── js-yaml@4.1.0
+49 silly idealTree │ ├── locate-path@6.0.0
+49 silly idealTree │ ├── minimatch@5.0.1
+49 silly idealTree │ ├── p-limit@3.1.0
+49 silly idealTree │ ├── p-locate@5.0.0
+49 silly idealTree │ ├── path-exists@4.0.0
+49 silly idealTree │ ├── supports-color@8.1.1
+49 silly idealTree │ └── yargs@16.2.0
+49 silly idealTree ├─┬ mochawesome-merge@4.2.1
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── cliui@6.0.0
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ ├── find-up@4.1.0
+49 silly idealTree │ ├── fs-extra@7.0.1
+49 silly idealTree │ ├── locate-path@5.0.0
+49 silly idealTree │ ├── p-limit@2.3.0
+49 silly idealTree │ ├── p-locate@4.1.0
+49 silly idealTree │ ├── p-try@2.2.0
+49 silly idealTree │ ├── path-exists@4.0.0
+49 silly idealTree │ ├── strip-ansi@6.0.1
+49 silly idealTree │ ├── wrap-ansi@6.2.0
+49 silly idealTree │ ├── y18n@4.0.3
+49 silly idealTree │ ├── yargs-parser@18.1.3
+49 silly idealTree │ └── yargs@15.4.1
+49 silly idealTree ├─┬ mochawesome-report-generator@6.2.0
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ ├── fs-extra@10.1.0
+49 silly idealTree │ ├── jsonfile@6.1.0
+49 silly idealTree │ └── universalify@2.0.0
+49 silly idealTree ├─┬ mochawesome@7.1.3
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── chalk@4.1.2
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ └── strip-ansi@6.0.1
+49 silly idealTree ├── ms@2.1.3
+49 silly idealTree ├── mute-stream@0.0.8
+49 silly idealTree ├── nanoid@3.3.3
+49 silly idealTree ├── natural-compare@1.4.0
+49 silly idealTree ├── nice-try@1.0.5
+49 silly idealTree ├── node-int64@0.4.0
+49 silly idealTree ├── node-releases@2.0.6
+49 silly idealTree ├─┬ normalize-package-data@3.0.3
+49 silly idealTree │ ├── lru-cache@6.0.0
+49 silly idealTree │ ├── semver@7.3.7
+49 silly idealTree │ └── yallist@4.0.0
+49 silly idealTree ├── normalize-path@3.0.0
+49 silly idealTree ├─┬ npm-run-path@4.0.1
+49 silly idealTree │ └── path-key@3.1.1
+49 silly idealTree ├── object-assign@4.1.1
+49 silly idealTree ├── object-inspect@1.11.0
+49 silly idealTree ├── object-keys@1.1.1
+49 silly idealTree ├── object.assign@4.1.2
+49 silly idealTree ├── object.entries@1.1.5
+49 silly idealTree ├── object.fromentries@2.0.5
+49 silly idealTree ├── object.hasown@1.1.0
+49 silly idealTree ├── object.values@1.1.5
+49 silly idealTree ├── once@1.4.0
+49 silly idealTree ├── onetime@5.1.2
+49 silly idealTree ├── opener@1.5.2
+49 silly idealTree ├── optionator@0.8.3
+49 silly idealTree ├── os-tmpdir@1.0.2
+49 silly idealTree ├── ospath@1.2.2
+49 silly idealTree ├── p-limit@1.3.0
+49 silly idealTree ├── p-locate@2.0.0
+49 silly idealTree ├── p-map@4.0.0
+49 silly idealTree ├── p-try@1.0.0
+49 silly idealTree ├── parent-module@1.0.1
+49 silly idealTree ├── parse-json@5.2.0
+49 silly idealTree ├── path-exists@3.0.0
+49 silly idealTree ├── path-is-absolute@1.0.1
+49 silly idealTree ├── path-key@2.0.1
+49 silly idealTree ├── path-parse@1.0.7
+49 silly idealTree ├── path-type@4.0.0
+49 silly idealTree ├── pend@1.2.0
+49 silly idealTree ├── performance-now@2.1.0
+49 silly idealTree ├── picocolors@1.0.0
+49 silly idealTree ├── picomatch@2.3.1
+49 silly idealTree ├── pify@2.3.0
+49 silly idealTree ├── pirates@4.0.5
+49 silly idealTree ├── pkg-dir@2.0.0
+49 silly idealTree ├── postcss-media-query-parser@0.2.3
+49 silly idealTree ├── postcss-resolve-nested-selector@0.1.1
+49 silly idealTree ├── postcss-safe-parser@6.0.0
+49 silly idealTree ├── postcss-selector-parser@6.0.10
+49 silly idealTree ├── postcss-value-parser@4.2.0
+49 silly idealTree ├─┬ postcss@8.4.16
+49 silly idealTree │ └── nanoid@3.3.4
+49 silly idealTree ├── prelude-ls@1.1.2
+49 silly idealTree ├── pretty-bytes@5.6.0
+49 silly idealTree ├─┬ pretty-format@28.1.3
+49 silly idealTree │ ├── ansi-styles@5.2.0
+49 silly idealTree │ └── react-is@18.2.0
+49 silly idealTree ├── progress@2.0.3
+49 silly idealTree ├── prompts@2.4.2
+49 silly idealTree ├── prop-types@15.7.2
+49 silly idealTree ├── proxy-from-env@1.0.0
+49 silly idealTree ├── pseudomap@1.0.2
+49 silly idealTree ├── psl@1.9.0
+49 silly idealTree ├── pump@3.0.0
+49 silly idealTree ├── punycode@2.1.1
+49 silly idealTree ├── qs@6.5.3
+49 silly idealTree ├── queue-microtask@1.2.3
+49 silly idealTree ├── quick-lru@4.0.1
+49 silly idealTree ├── randombytes@2.1.0
+49 silly idealTree ├── react-is@16.13.1
+49 silly idealTree ├─┬ read-pkg-up@7.0.1
+49 silly idealTree │ ├── find-up@4.1.0
+49 silly idealTree │ ├── locate-path@5.0.0
+49 silly idealTree │ ├── p-limit@2.3.0
+49 silly idealTree │ ├── p-locate@4.1.0
+49 silly idealTree │ ├── p-try@2.2.0
+49 silly idealTree │ └── path-exists@4.0.0
+49 silly idealTree ├─┬ read-pkg@5.2.0
+49 silly idealTree │ ├── hosted-git-info@2.8.9
+49 silly idealTree │ ├── normalize-package-data@2.5.0
+49 silly idealTree │ ├── semver@5.7.1
+49 silly idealTree │ └── type-fest@0.6.0
+49 silly idealTree ├── readdirp@3.6.0
+49 silly idealTree ├── redent@3.0.0
+49 silly idealTree ├── regenerator-runtime@0.13.9
+49 silly idealTree ├── regexp.prototype.flags@1.3.1
+49 silly idealTree ├── regexpp@2.0.1
+49 silly idealTree ├── request-progress@3.0.0
+49 silly idealTree ├── require-directory@2.1.1
+49 silly idealTree ├── require-from-string@2.0.2
+49 silly idealTree ├── require-main-filename@2.0.0
+49 silly idealTree ├─┬ resolve-cwd@3.0.0
+49 silly idealTree │ └── resolve-from@5.0.0
+49 silly idealTree ├── resolve-from@4.0.0
+49 silly idealTree ├── resolve.exports@1.1.0
+49 silly idealTree ├── resolve@1.20.0
+49 silly idealTree ├── restore-cursor@3.1.0
+49 silly idealTree ├── reusify@1.0.4
+49 silly idealTree ├── rfdc@1.3.0
+49 silly idealTree ├── rimraf@2.6.3
+49 silly idealTree ├── run-async@2.4.1
+49 silly idealTree ├── run-parallel@1.2.0
+49 silly idealTree ├── rxjs@6.6.7
+49 silly idealTree ├── safe-buffer@5.2.1
+49 silly idealTree ├── safer-buffer@2.1.2
+49 silly idealTree ├── semver@6.3.0
+49 silly idealTree ├── serialize-javascript@6.0.0
+49 silly idealTree ├── set-blocking@2.0.0
+49 silly idealTree ├── shebang-command@1.2.0
+49 silly idealTree ├── shebang-regex@1.0.0
+49 silly idealTree ├── side-channel@1.0.4
+49 silly idealTree ├── sigmund@1.0.1
+49 silly idealTree ├── signal-exit@3.0.7
+49 silly idealTree ├── sisteransi@1.0.5
+49 silly idealTree ├── slash@3.0.0
+49 silly idealTree ├─┬ slice-ansi@3.0.0
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── astral-regex@2.0.0
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ └── is-fullwidth-code-point@3.0.0
+49 silly idealTree ├── source-map-js@1.0.2
+49 silly idealTree ├── source-map-support@0.5.13
+49 silly idealTree ├── source-map@0.6.1
+49 silly idealTree ├── spdx-correct@3.1.1
+49 silly idealTree ├── spdx-exceptions@2.3.0
+49 silly idealTree ├── spdx-expression-parse@3.0.1
+49 silly idealTree ├── spdx-license-ids@3.0.12
+49 silly idealTree ├── sprintf-js@1.0.3
+49 silly idealTree ├── sshpk@1.17.0
+49 silly idealTree ├─┬ stack-utils@2.0.5
+49 silly idealTree │ └── escape-string-regexp@2.0.0
+49 silly idealTree ├─┬ string-length@4.0.2
+49 silly idealTree │ └── strip-ansi@6.0.1
+49 silly idealTree ├─┬ string-width@4.2.3
+49 silly idealTree │ ├── emoji-regex@8.0.0
+49 silly idealTree │ ├── is-fullwidth-code-point@3.0.0
+49 silly idealTree │ └── strip-ansi@6.0.1
+49 silly idealTree ├── string.prototype.matchall@4.0.6
+49 silly idealTree ├── string.prototype.trimend@1.0.4
+49 silly idealTree ├── string.prototype.trimstart@1.0.4
+49 silly idealTree ├─┬ strip-ansi@5.2.0
+49 silly idealTree │ └── ansi-regex@4.1.0
+49 silly idealTree ├── strip-bom@3.0.0
+49 silly idealTree ├── strip-final-newline@2.0.0
+49 silly idealTree ├── strip-indent@3.0.0
+49 silly idealTree ├── strip-json-comments@3.1.1
+49 silly idealTree ├── style-search@0.1.0
+49 silly idealTree ├── stylelint-config-recommended@9.0.0
+49 silly idealTree ├── stylelint-config-standard@28.0.0
+49 silly idealTree ├─┬ stylelint@14.11.0
+49 silly idealTree │ ├── ajv@8.11.0
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── astral-regex@2.0.0
+49 silly idealTree │ ├── balanced-match@2.0.0
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ ├── file-entry-cache@6.0.1
+49 silly idealTree │ ├── flat-cache@3.0.4
+49 silly idealTree │ ├── flatted@3.2.2
+49 silly idealTree │ ├── ignore@5.2.0
+49 silly idealTree │ ├── is-fullwidth-code-point@3.0.0
+49 silly idealTree │ ├── json-schema-traverse@1.0.0
+49 silly idealTree │ ├── resolve-from@5.0.0
+49 silly idealTree │ ├── rimraf@3.0.2
+49 silly idealTree │ ├── slice-ansi@4.0.0
+49 silly idealTree │ ├── strip-ansi@6.0.1
+49 silly idealTree │ └── table@6.8.0
+49 silly idealTree ├── supports-color@7.1.0
+49 silly idealTree ├── supports-hyperlinks@2.2.0
+49 silly idealTree ├── svg-tags@1.0.0
+49 silly idealTree ├─┬ table@5.4.6
+49 silly idealTree │ ├── emoji-regex@7.0.3
+49 silly idealTree │ ├── slice-ansi@2.1.0
+49 silly idealTree │ └── string-width@3.1.0
+49 silly idealTree ├── tcomb-validation@3.4.1
+49 silly idealTree ├── tcomb@3.2.29
+49 silly idealTree ├── terminal-link@2.1.1
+49 silly idealTree ├── test-exclude@6.0.0
+49 silly idealTree ├── text-table@0.2.0
+49 silly idealTree ├── throttleit@1.0.0
+49 silly idealTree ├── through@2.3.8
+49 silly idealTree ├─┬ tmp@0.2.1
+49 silly idealTree │ └── rimraf@3.0.2
+49 silly idealTree ├── tmpl@1.0.5
+49 silly idealTree ├── to-fast-properties@2.0.0
+49 silly idealTree ├── to-regex-range@5.0.1
+49 silly idealTree ├── tough-cookie@2.5.0
+49 silly idealTree ├── trim-newlines@3.0.1
+49 silly idealTree ├─┬ tsconfig-paths@3.11.0
+49 silly idealTree │ └── json5@1.0.1
+49 silly idealTree ├── tslib@1.14.1
+49 silly idealTree ├── tunnel-agent@0.6.0
+49 silly idealTree ├── tweetnacl@0.14.5
+49 silly idealTree ├── type-check@0.3.2
+49 silly idealTree ├── type-detect@4.0.8
+49 silly idealTree ├── type-fest@0.8.1
+49 silly idealTree ├── unbox-primitive@1.0.1
+49 silly idealTree ├── universalify@0.1.2
+49 silly idealTree ├── untildify@4.0.0
+49 silly idealTree ├── update-browserslist-db@1.0.5
+49 silly idealTree ├── uri-js@4.4.1
+49 silly idealTree ├── util-deprecate@1.0.2
+49 silly idealTree ├── uuid@8.3.2
+49 silly idealTree ├── v8-compile-cache@2.3.0
+49 silly idealTree ├── v8-to-istanbul@9.0.1
+49 silly idealTree ├── validate-npm-package-license@3.0.4
+49 silly idealTree ├── validator@13.7.0
+49 silly idealTree ├── verror@1.10.0
+49 silly idealTree ├── walker@1.0.8
+49 silly idealTree ├── which-boxed-primitive@1.0.2
+49 silly idealTree ├── which-module@2.0.0
+49 silly idealTree ├── which@1.3.1
+49 silly idealTree ├── word-wrap@1.2.3
+49 silly idealTree ├── workerpool@6.2.1
+49 silly idealTree ├─┬ wrap-ansi@7.0.0
+49 silly idealTree │ ├── ansi-styles@4.3.0
+49 silly idealTree │ ├── color-convert@2.0.1
+49 silly idealTree │ ├── color-name@1.1.4
+49 silly idealTree │ └── strip-ansi@6.0.1
+49 silly idealTree ├── wrappy@1.0.2
+49 silly idealTree ├── write-file-atomic@4.0.2
+49 silly idealTree ├── write@1.0.3
+49 silly idealTree ├── y18n@5.0.8
+49 silly idealTree ├── yallist@2.1.2
+49 silly idealTree ├── yaml@1.10.2
+49 silly idealTree ├── yargs-parser@20.2.4
+49 silly idealTree ├─┬ yargs-unparser@2.0.0
+49 silly idealTree │ ├── camelcase@6.3.0
+49 silly idealTree │ ├── decamelize@4.0.0
+49 silly idealTree │ └── is-plain-obj@2.1.0
+49 silly idealTree ├─┬ yargs@17.5.1
+49 silly idealTree │ └── yargs-parser@21.1.1
+49 silly idealTree ├── yauzl@2.10.0
+49 silly idealTree └── yocto-queue@0.1.0
+50 silly generateActionsToTake Starting
+51 silly install generateActionsToTake
+52 silly generateActionsToTake Finishing
+53 silly diffTrees action count 0
+54 silly decomposeActions action count 0
+55 silly runTopLevelLifecycles Starting
+56 silly install runPreinstallTopLevelLifecycles
+57 silly rollbackFailedOptional Starting
+58 silly rollbackFailedOptional Finishing
+59 silly runTopLevelLifecycles Finishing
+60 silly install printInstalled
+61 warn optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^2.3.2 (node_modules/jest-haste-map/node_modules/fsevents):
+62 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported engine for fsevents@2.3.2: wanted: {"node":"^8.16.0 || ^10.6.0 || >=11.0.0"} (current: {"node":"6.17.1","npm":"3.10.10"})
+63 warn notsup SKIPPING OPTIONAL DEPENDENCY: Not compatible with your version of node/npm: fsevents@2.3.2
+64 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Not compatible with your version of node/npm: fsevents@2.3.2
+64 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Required: {"node":"^8.16.0 || ^10.6.0 || >=11.0.0"}
+64 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual:   {"npm":"3.10.10","node":"6.17.1"}
+65 warn optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.2 (node_modules/chokidar/node_modules/fsevents):
+66 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported engine for fsevents@2.3.2: wanted: {"node":"^8.16.0 || ^10.6.0 || >=11.0.0"} (current: {"node":"6.17.1","npm":"3.10.10"})
+67 warn notsup SKIPPING OPTIONAL DEPENDENCY: Not compatible with your version of node/npm: fsevents@2.3.2
+68 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Not compatible with your version of node/npm: fsevents@2.3.2
+68 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Required: {"node":"^8.16.0 || ^10.6.0 || >=11.0.0"}
+68 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual:   {"npm":"3.10.10","node":"6.17.1"}
+69 warn @jest/core@28.1.3 requires a peer of node-notifier@^8.0.1 || ^9.0.0 || ^10.0.0 but none was installed.
+70 verbose If you need help, you may report this error at:
+70 verbose     <https://github.com/npm/npm/issues>
+71 warn @jest/reporters@28.1.3 requires a peer of node-notifier@^8.0.1 || ^9.0.0 || ^10.0.0 but none was installed.
+72 verbose If you need help, you may report this error at:
+72 verbose     <https://github.com/npm/npm/issues>
+73 warn jest@28.1.3 requires a peer of node-notifier@^8.0.1 || ^9.0.0 || ^10.0.0 but none was installed.
+74 verbose If you need help, you may report this error at:
+74 verbose     <https://github.com/npm/npm/issues>
+75 warn jest-cli@28.1.3 requires a peer of node-notifier@^8.0.1 || ^9.0.0 || ^10.0.0 but none was installed.
+76 verbose If you need help, you may report this error at:
+76 verbose     <https://github.com/npm/npm/issues>
+77 warn jest-config@28.1.3 requires a peer of ts-node@>=9.0.0 but none was installed.
+78 verbose If you need help, you may report this error at:
+78 verbose     <https://github.com/npm/npm/issues>
+79 verbose stack Error: Unsupported engine for sd-0x-project-shopping-cart@1.0.0: wanted: {"node":"16"} (current: {"node":"6.17.1","npm":"3.10.10"})
+79 verbose stack     at checkEngine (/home/eduardo/.nvm/versions/node/v6.17.1/lib/node_modules/npm/node_modules/npm-install-checks/index.js:13:14)
+79 verbose stack     at module.exports.isInstallable (/home/eduardo/.nvm/versions/node/v6.17.1/lib/node_modules/npm/lib/install/validate-args.js:38:3)
+79 verbose stack     at actions.(anonymous function) (/home/eduardo/.nvm/versions/node/v6.17.1/lib/node_modules/npm/lib/install/actions.js:52:14)
+79 verbose stack     at execAction (/home/eduardo/.nvm/versions/node/v6.17.1/lib/node_modules/npm/lib/install/actions.js:114:7)
+79 verbose stack     at exports.doOne (/home/eduardo/.nvm/versions/node/v6.17.1/lib/node_modules/npm/lib/install/actions.js:119:3)
+79 verbose stack     at Array.<anonymous> (/home/eduardo/.nvm/versions/node/v6.17.1/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+79 verbose stack     at LOOP (/home/eduardo/.nvm/versions/node/v6.17.1/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+79 verbose stack     at chain (/home/eduardo/.nvm/versions/node/v6.17.1/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+79 verbose stack     at Object.Installer.runPreinstallTopLevelLifecycles (/home/eduardo/.nvm/versions/node/v6.17.1/lib/node_modules/npm/lib/install.js:540:3)
+79 verbose stack     at Array.<anonymous> (/home/eduardo/.nvm/versions/node/v6.17.1/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+80 verbose pkgid sd-0x-project-shopping-cart@1.0.0
+81 verbose cwd /home/eduardo/trybe/projetos/modulo 2/projeto-9/sd-025-b-project-shopping-cart
+82 error Linux 5.15.0-47-generic
+83 error argv "/home/eduardo/.nvm/versions/node/v6.17.1/bin/node" "/home/eduardo/.nvm/versions/node/v6.17.1/bin/npm" "install"
+84 error node v6.17.1
+85 error npm  v3.10.10
+86 error code ENOTSUP
+87 error notsup Unsupported engine for sd-0x-project-shopping-cart@1.0.0: wanted: {"node":"16"} (current: {"node":"6.17.1","npm":"3.10.10"})
+88 error notsup Not compatible with your version of node/npm: sd-0x-project-shopping-cart@1.0.0
+89 error notsup Not compatible with your version of node/npm: sd-0x-project-shopping-cart@1.0.0
+89 error notsup Required: {"node":"16"}
+89 error notsup Actual:   {"npm":"3.10.10","node":"6.17.1"}
+90 verbose exit [ 1, true ]

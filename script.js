@@ -72,6 +72,8 @@ const createCartItemElement = ({ id, title, price }) => {
   return li;
 };
 
-window.onload = () => { 
-  createProductItemElement(); getIdFromProductItem(); createCartItemElement(); 
+window.onload = () => {
+  // createProductItemElement();
+  // getIdFromProductItem();
+  // createCartItemElement();
 };
