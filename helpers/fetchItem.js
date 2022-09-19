@@ -1,4 +1,3 @@
-
 const fetchItem = async (arguemento) => {
   try {
     const endpoint = `https://api.mercadolibre.com/items/${arguemento}`;
