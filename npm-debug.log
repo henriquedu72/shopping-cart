@@ -34,16 +34,16 @@
 24 silly mapToRegistry uri https://registry.npmjs.org/fsevents
 25 verbose request uri https://registry.npmjs.org/fsevents
 26 verbose request no auth needed
-27 info attempt registry request try #1 at 22:48:18
-28 verbose request id 589cea95156c65bb
+27 info attempt registry request try #1 at 20:08:10
+28 verbose request id b27c0641293ee88e
 29 verbose etag W/"f70d5ce84deac79ac7961b61b00c57e7"
 30 verbose lastModified Sat, 18 Jun 2022 03:58:00 GMT
 31 http request GET https://registry.npmjs.org/fsevents
 32 http 304 https://registry.npmjs.org/fsevents
-33 verbose headers { date: 'Sat, 17 Sep 2022 01:48:18 GMT',
+33 verbose headers { date: 'Sun, 18 Sep 2022 23:08:10 GMT',
 33 verbose headers   connection: 'keep-alive',
-33 verbose headers   'cf-ray': '74be2dc99bcba4c2-GRU',
-33 verbose headers   age: '120',
+33 verbose headers   'cf-ray': '74cdbdf76cc46b03-GRU',
+33 verbose headers   age: '4',
 33 verbose headers   'cache-control': 'public, max-age=300',
 33 verbose headers   etag: '"f70d5ce84deac79ac7961b61b00c57e7"',
 33 verbose headers   'last-modified': 'Sat, 18 Jun 2022 03:58:00 GMT',
@@ -52,10 +52,10 @@
 33 verbose headers   'x-amz-replication-status': 'COMPLETED',
 33 verbose headers   server: 'cloudflare' }
 34 silly get cb [ 304,
-34 silly get   { date: 'Sat, 17 Sep 2022 01:48:18 GMT',
+34 silly get   { date: 'Sun, 18 Sep 2022 23:08:10 GMT',
 34 silly get     connection: 'keep-alive',
-34 silly get     'cf-ray': '74be2dc99bcba4c2-GRU',
-34 silly get     age: '120',
+34 silly get     'cf-ray': '74cdbdf76cc46b03-GRU',
+34 silly get     age: '4',
 34 silly get     'cache-control': 'public, max-age=300',
 34 silly get     etag: '"f70d5ce84deac79ac7961b61b00c57e7"',
 34 silly get     'last-modified': 'Sat, 18 Jun 2022 03:58:00 GMT',

@@ -1,5 +1,8 @@
 // Esse tipo de comentário que estão antes de todas as funções são chamados de JSdoc,
 // experimente passar o mouse sobre o nome das funções e verá que elas possuem descrições! 
+const productsSection = document.getElementsByClassName('items')[0];
+// const { isArguments } = require('cypress/types/lodash');
+// const { fetchProducts } = require('./helpers/fetchProducts');
 
 // Fique a vontade para modificar o código já escrito e criar suas próprias funções!
 
@@ -71,8 +74,17 @@ const createCartItemElement = ({ id, title, price }) => {
   li.addEventListener('click', cartItemClickListener);
   return li;
 };
+const getProducts = async (arg) => {
+  const products = await fetchProducts(arg);
+  const arrayOfProducts = products.results;
+  // console.log(arrayItems);
+  arrayOfProducts.forEach((product) => {
+    productsSection.appendChild(createProductItemElement(product));
+  });
+};
 
 window.onload = () => {
+  getProducts();
   // createProductItemElement();
   // getIdFromProductItem();
   // createCartItemElement();
