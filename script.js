@@ -8,12 +8,12 @@
 
 // Fique a vontade para modificar o código já escrito e criar suas próprias funções!
 
-const productsSection = document.getElementsByClassName('items')[0];
+// const productsSection = document.getElementsByClassName('items')[0];
 // const cartItem = document.querySelector('.cart__items');
-const cartItems = () => { 
-  const cartItem = document.getElementsByClassName('cart__items')[0];
-  return cartItem; 
-};
+// const cartItems = () => { 
+//   const cartItem = document.getElementsByClassName('cart__items')[0];
+//   return cartItem; 
+// };
 
 const div = document.createElement('div');
 const cart = document.querySelector('.cart');
@@ -99,7 +99,12 @@ const getIdFromProductItem = (product) => product.querySelector('span.item_id').
 const addSubotal = (arg) => {
   div.className = 'total-price';
   div.innerText = `Subtotal: R$${arg}`;
- };
+};
+
+const cartItems = () => { 
+  const cartItem = document.getElementsByClassName('cart__items')[0];
+  return cartItem; 
+};
 
 const clearCart = (elem) => {
   const clear = document.querySelector('.empty-cart');
@@ -128,6 +133,7 @@ const createCartItemElement = ({ id, title, price, thumb }) => {
 };
 
 const getProducts = async () => {
+  const productsSection = document.getElementsByClassName('items')[0];
   const products = await fetchProducts('computador');
   const arrayOfProducts = products.results;
   return arrayOfProducts.map((item) => productsSection.appendChild(createProductItemElement(item)));
@@ -156,8 +162,23 @@ const erase = () => {
   }));
 };
 
+const Loading = () => {
+  const makeLoading = document.createElement('div');
+  makeLoading.className = 'loading';
+  makeLoading.innerText = 'carregando...';
+  const load = document.querySelector('.items');
+  return load.append(makeLoading);
+  };
+
+const clearLoading = () => {
+  const clear = document.querySelector('.loading');
+  return clear.remove();
+};
+
 window.onload = async () => {
+  Loading();
   await getProducts();
+  clearLoading();
     await addCart(); 
     if (getSavedCartItems()) {
       cartItems().innerHTML = getSavedCartItems();
