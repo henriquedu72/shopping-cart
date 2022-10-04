@@ -101,6 +101,15 @@ const addSubotal = (arg) => {
   div.innerText = `Subtotal: R$${arg}`;
  };
 
+const clearCart = (elem) => {
+  const clear = document.querySelector('.empty-cart');
+  clear.addEventListener('click', () => {
+  elem.remove();
+  addSubotal(sumOfPrices());
+  saveCartItems('');
+ }); 
+};
+
 const createCartItemElement = ({ id, title, price, thumb }) => {
   const newLi = document.createElement('li');
   newLi.className = 'cart__item';
@@ -114,6 +123,7 @@ const createCartItemElement = ({ id, title, price, thumb }) => {
     addSubotal(sumOfPrices());
     saveCartItems(cartItems().innerHTML);
   });
+  clearCart(newLi);
   return newLi;
 };
 
@@ -138,6 +148,7 @@ const addCart = async () => {
 
 const erase = () => {
   const newLi = document.querySelectorAll('.cart__item');
+  newLi.forEach((arg) => clearCart(arg));
   newLi.forEach((param) => param.addEventListener('click', () => {
     param.remove();
     addSubotal(sumOfPrices());
