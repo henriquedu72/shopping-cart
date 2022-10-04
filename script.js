@@ -67,11 +67,16 @@ const createProductItemElement = ({ id, title, thumbnail }) => {
   * @param {string} product.price - Preço do produto.
   * @returns {Element} Elemento de um item do carrinho.
   */
- const createCartItemElement = ({ id, title, price }) => {
+ const createCartItemElement = ({ id, title, price, thumb }) => {
    const li = document.createElement('li');
    li.className = 'cart__item';
    li.innerText = `ID: ${id} | TITLE: ${title} | PRICE: $${price}`;
      // li.addEventListener('click', cartItemClickListener);
+     const imagem = document.createElement('img');
+     imagem.className = 'imagem_cart';
+     imagem.src = thumb;
+     child = li.appendChild(imagem);
+     li.addEventListener('click', () => li.remove());
   return li;
 };
 
