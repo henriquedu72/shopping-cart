@@ -18,8 +18,8 @@ describe('2 - Teste a função fetchItem', () => {
       expect(fetch).toHaveBeenCalledWith('https://api.mercadolibre.com/items/MLB1615760527');
   });
   test(' Se ao usar `MLB1615760527` o retorno da função sera igual ao objeto `item`', async () => {
-    // const actual = ;
-    expect(await fetchItem('MLB1615760527')).toEqual(item);
+    const actual = await fetchItem('MLB1615760527');
+    expect(actual).toEqual(item);
   });
   test(' Se ao usar a função sem argumento, retorna um erro igual a `You must provide an url`', async () => {
     // const actual = fetchItem();

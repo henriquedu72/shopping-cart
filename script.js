@@ -1,10 +1,10 @@
 // Esse tipo de comentário que estão antes de todas as funções são chamados de JSdoc,
 // experimente passar o mouse sobre o nome das funções e verá que elas possuem descrições! 
-const productsSection = document.getElementsByClassName('items')[0];
-// const { isArguments } = require('cypress/types/lodash');
-// const { fetchProducts } = require('./helpers/fetchProducts');
 
 // Fique a vontade para modificar o código já escrito e criar suas próprias funções!
+
+const productsSection = document.getElementsByClassName('items')[0];
+const cartItem = document.querySelector('.cart__items');
 
 /**
  * Função responsável por criar e retornar o elemento de imagem do produto.
@@ -57,35 +57,40 @@ const createProductItemElement = ({ id, title, thumbnail }) => {
  * @param {Element} product - Elemento do produto.
  * @returns {string} ID do produto.
  */
-const getIdFromProductItem = (product) => product.querySelector('span.id').innerText;
+ const getIdFromProductItem = (product) => product.querySelector('span.item_id').innerText;
 
-/**
- * Função responsável por criar e retornar um item do carrinho.
- * @param {Object} product - Objeto do produto.
- * @param {string} product.id - ID do produto.
- * @param {string} product.title - Título do produto.
- * @param {string} product.price - Preço do produto.
- * @returns {Element} Elemento de um item do carrinho.
- */
-const createCartItemElement = ({ id, title, price }) => {
-  const li = document.createElement('li');
-  li.className = 'cart__item';
-  li.innerText = `ID: ${id} | TITLE: ${title} | PRICE: $${price}`;
-  li.addEventListener('click', cartItemClickListener);
+ /**
+  * Função responsável por criar e retornar um item do carrinho.
+  * @param {Object} product - Objeto do produto.
+  * @param {string} product.id - ID do produto.
+  * @param {string} product.title - Título do produto.
+  * @param {string} product.price - Preço do produto.
+  * @returns {Element} Elemento de um item do carrinho.
+  */
+ const createCartItemElement = ({ id, title, price }) => {
+   const li = document.createElement('li');
+   li.className = 'cart__item';
+   li.innerText = `ID: ${id} | TITLE: ${title} | PRICE: $${price}`;
+     // li.addEventListener('click', cartItemClickListener);
   return li;
 };
-const getProducts = async (arg) => {
-  const products = await fetchProducts(arg);
-  const arrayOfProducts = products.results;
-  // console.log(arrayItems);
-  arrayOfProducts.forEach((product) => {
-    productsSection.appendChild(createProductItemElement(product));
-  });
-};
 
-window.onload = () => {
-  getProducts();
-  // createProductItemElement();
-  // getIdFromProductItem();
-  // createCartItemElement();
+const getProducts = async () => {
+    const products = await fetchProducts('computador');
+    const arrayOfProducts = products.results;
+    return arrayOfProducts.forEach((item) => productsSection
+      .appendChild(createProductItemElement(item)));
+  }; 
+
+ const addCart = async () => {
+    const btt = document.querySelectorAll('.item__add');
+    btt.forEach(async (param, i) =>
+     param.addEventListener('click', async () => cartItem.appendChild(createCartItemElement(
+      await fetchItem(getIdFromProductItem(document.querySelectorAll('.item')[i])),
+  ))));
+    };
+
+    window.onload = async () => { 
+      await getProducts(); 
+      await addCart(); 
 };

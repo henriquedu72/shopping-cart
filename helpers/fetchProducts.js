@@ -11,6 +11,8 @@ const fetchProducts = async (product) => {
   }
 };
 
+fetchProducts('computador');
+
 if (typeof module !== 'undefined') {
   module.exports = {
     fetchProducts,
